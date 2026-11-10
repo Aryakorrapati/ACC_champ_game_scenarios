@@ -1,0 +1,1513 @@
+ACC championship outcomes from the provided season table
+Follow the branches from ROOT. Each path gives sufficient game results; skipped games do not affect that path.
+Unresolved SportSource ranking / draw results are listed as all possible matchups at the outcome leaf.
+The policy's ‘all tied teams are common opponents’ clause is interpreted as a complete head-to-head round-robin.
+TABLE_TEAM rows give the completed conference record before remaining games.
+TABLE_GAME rows list every remaining ACC-vs-ACC game for the standings calculator.
+
+TABLE_TEAMS
+TABLE_TEAM: Boston College|2|4
+TABLE_TEAM: California|2|4
+TABLE_TEAM: Clemson|4|2
+TABLE_TEAM: Duke|4|2
+TABLE_TEAM: Florida State|2|4
+TABLE_TEAM: Georgia Tech|1|5
+TABLE_TEAM: Louisville|5|2
+TABLE_TEAM: Miami (FL)|6|0
+TABLE_TEAM: NC State|2|4
+TABLE_TEAM: North Carolina|2|3
+TABLE_TEAM: Pittsburgh|3|3
+TABLE_TEAM: SMU|5|2
+TABLE_TEAM: Stanford|2|4
+TABLE_TEAM: Syracuse|2|5
+TABLE_TEAM: Virginia|2|4
+TABLE_TEAM: Virginia Tech|3|3
+TABLE_TEAM: Wake Forest|5|1
+TABLE_GAMES
+TABLE_GAME: November 13 — Florida State at Pittsburgh|Florida State|Pittsburgh
+TABLE_GAME: November 14 — Duke at Miami (FL)|Duke|Miami (FL)
+TABLE_GAME: November 14 — Wake Forest at SMU|Wake Forest|SMU
+TABLE_GAME: November 14 — Syracuse at NC State|Syracuse|NC State
+TABLE_GAME: November 14 — Georgia Tech at Clemson|Georgia Tech|Clemson
+TABLE_GAME: November 14 — California at Virginia|California|Virginia
+TABLE_GAME: November 14 — Louisville at North Carolina|Louisville|North Carolina
+TABLE_GAME: November 14 — Stanford at Virginia Tech|Stanford|Virginia Tech
+TABLE_GAME: November 20 — Clemson at Duke|Clemson|Duke
+TABLE_GAME: November 21 — Syracuse at Boston College|Syracuse|Boston College
+TABLE_GAME: November 21 — North Carolina at Virginia|North Carolina|Virginia
+TABLE_GAME: November 21 — NC State at Florida State|NC State|Florida State
+TABLE_GAME: November 21 — Virginia Tech at Miami (FL)|Virginia Tech|Miami (FL)
+TABLE_GAME: November 21 — Pittsburgh at Louisville|Pittsburgh|Louisville
+TABLE_GAME: November 21 — Wake Forest at Georgia Tech|Wake Forest|Georgia Tech
+TABLE_GAME: November 21 — Stanford at California|Stanford|California
+TABLE_GAME: November 28 — Boston College at Miami (FL)|Boston College|Miami (FL)
+TABLE_GAME: November 28 — Duke at Wake Forest|Duke|Wake Forest
+TABLE_GAME: November 28 — NC State at North Carolina|NC State|North Carolina
+TABLE_GAME: November 28 — Pittsburgh at California|Pittsburgh|California
+TABLE_GAME: November 28 — SMU at Stanford|SMU|Stanford
+TABLE_GAME: November 28 — Virginia at Virginia Tech|Virginia|Virginia Tech
+ROOT: NODE 1459
+
+OUTCOMES
+OUTCOME 0: Miami vs Louisville; Miami vs SMU; Miami vs Wake Forest
+OUTCOME 1: Miami vs Duke; Miami vs Louisville; Miami vs SMU; Miami vs Wake Forest
+OUTCOME 2: Miami vs Wake Forest
+OUTCOME 3: Miami vs Louisville
+OUTCOME 4: Miami vs Clemson
+OUTCOME 5: Miami vs Louisville; Miami vs SMU; Miami vs Virginia Tech; Miami vs Wake Forest
+OUTCOME 6: Miami vs Duke; Miami vs Louisville; Miami vs SMU; Miami vs Virginia Tech; Miami vs Wake Forest
+OUTCOME 7: Louisville vs Miami; Miami vs Louisville
+OUTCOME 8: Louisville vs Miami; Miami vs Wake Forest; Wake Forest vs Louisville; Wake Forest vs Miami
+OUTCOME 9: Miami vs SMU
+OUTCOME 10: Miami vs Duke; Miami vs SMU; Miami vs Wake Forest
+OUTCOME 11: Miami vs Duke; Miami vs SMU; Miami vs Virginia Tech; Miami vs Wake Forest
+OUTCOME 12: Wake Forest vs Miami
+OUTCOME 13: Wake Forest vs Louisville; Wake Forest vs Miami
+OUTCOME 14: Duke vs Louisville; Duke vs Miami; Duke vs SMU; Duke vs Virginia Tech; Duke vs Wake Forest; Louisville vs Duke; Louisville vs Miami; Louisville vs SMU; Louisville vs Virginia Tech; Louisville vs Wake Forest; Miami vs Duke; Miami vs Louisville; Miami vs SMU; Miami vs Virginia Tech; Miami vs Wake Forest; SMU vs Duke; SMU vs Louisville; SMU vs Miami; SMU vs Virginia Tech; SMU vs Wake Forest; Virginia Tech vs Duke; Virginia Tech vs Louisville; Virginia Tech vs Miami; Virginia Tech vs SMU; Virginia Tech vs Wake Forest; Wake Forest vs Duke; Wake Forest vs Louisville; Wake Forest vs Miami; Wake Forest vs SMU; Wake Forest vs Virginia Tech
+OUTCOME 15: Wake Forest vs Duke; Wake Forest vs Louisville; Wake Forest vs Miami; Wake Forest vs Virginia Tech
+OUTCOME 16: Louisville vs Duke; Louisville vs Miami; Louisville vs SMU; Louisville vs Virginia Tech; Louisville vs Wake Forest
+OUTCOME 17: Wake Forest vs Louisville
+OUTCOME 18: Duke vs Louisville; Duke vs Miami; Duke vs SMU; Duke vs Wake Forest; Louisville vs Duke; Louisville vs Miami; Louisville vs SMU; Louisville vs Wake Forest; Miami vs Duke; Miami vs Louisville; Miami vs SMU; Miami vs Wake Forest; SMU vs Duke; SMU vs Louisville; SMU vs Miami; SMU vs Wake Forest; Wake Forest vs Duke; Wake Forest vs Louisville; Wake Forest vs Miami; Wake Forest vs SMU
+OUTCOME 19: Wake Forest vs Duke; Wake Forest vs Louisville; Wake Forest vs Miami
+OUTCOME 20: Louisville vs Duke; Louisville vs Miami; Louisville vs SMU; Louisville vs Wake Forest
+OUTCOME 21: Clemson vs Louisville; Clemson vs Miami; Clemson vs SMU; Clemson vs Virginia Tech; Clemson vs Wake Forest
+OUTCOME 22: Wake Forest vs Clemson
+OUTCOME 23: Louisville vs Miami; Louisville vs SMU; Louisville vs Virginia Tech; Louisville vs Wake Forest; Miami vs Louisville; Miami vs SMU; Miami vs Virginia Tech; Miami vs Wake Forest; SMU vs Louisville; SMU vs Miami; SMU vs Virginia Tech; SMU vs Wake Forest; Virginia Tech vs Louisville; Virginia Tech vs Miami; Virginia Tech vs SMU; Virginia Tech vs Wake Forest; Wake Forest vs Louisville; Wake Forest vs Miami; Wake Forest vs SMU; Wake Forest vs Virginia Tech
+OUTCOME 24: Wake Forest vs Louisville; Wake Forest vs Miami; Wake Forest vs Virginia Tech
+OUTCOME 25: Louisville vs Clemson
+OUTCOME 26: Louisville vs Miami; Louisville vs SMU; Louisville vs Virginia Tech; Louisville vs Wake Forest
+OUTCOME 27: Clemson vs Louisville; Clemson vs Miami; Clemson vs SMU; Clemson vs Wake Forest
+OUTCOME 28: Louisville vs Miami; Louisville vs SMU; Miami vs Louisville; Miami vs SMU; Miami vs Wake Forest; SMU vs Louisville; SMU vs Miami; SMU vs Wake Forest; Wake Forest vs Louisville; Wake Forest vs Miami; Wake Forest vs SMU
+OUTCOME 29: Louisville vs Miami; Louisville vs SMU
+OUTCOME 30: Duke vs Miami; Duke vs SMU; Duke vs Virginia Tech; Duke vs Wake Forest; Miami vs Duke; Miami vs SMU; Miami vs Virginia Tech; Miami vs Wake Forest; SMU vs Duke; SMU vs Miami; SMU vs Virginia Tech; SMU vs Wake Forest; Virginia Tech vs Duke; Virginia Tech vs Miami; Virginia Tech vs SMU; Virginia Tech vs Wake Forest; Wake Forest vs Duke; Wake Forest vs Miami; Wake Forest vs SMU; Wake Forest vs Virginia Tech
+OUTCOME 31: Wake Forest vs Duke; Wake Forest vs Virginia Tech
+OUTCOME 32: Duke vs Miami; Duke vs SMU; Miami vs Duke; Miami vs SMU; Miami vs Wake Forest; SMU vs Duke; SMU vs Miami; SMU vs Wake Forest; Wake Forest vs Duke; Wake Forest vs Miami; Wake Forest vs SMU
+OUTCOME 33: Wake Forest vs Duke
+OUTCOME 34: Clemson vs Miami; Clemson vs SMU; Clemson vs Virginia Tech; Clemson vs Wake Forest
+OUTCOME 35: Miami vs SMU; SMU vs Miami; SMU vs Virginia Tech; SMU vs Wake Forest; Virginia Tech vs Miami; Virginia Tech vs SMU; Wake Forest vs Miami; Wake Forest vs SMU; Wake Forest vs Virginia Tech
+OUTCOME 36: Wake Forest vs Virginia Tech
+OUTCOME 37: Clemson vs Miami; Clemson vs SMU
+OUTCOME 38: Miami vs SMU; SMU vs Miami
+OUTCOME 39: Wake Forest vs Duke; Wake Forest vs Louisville; Wake Forest vs Miami; Wake Forest vs SMU; Wake Forest vs Virginia Tech
+OUTCOME 40: Wake Forest vs Duke; Wake Forest vs Louisville; Wake Forest vs Miami; Wake Forest vs SMU
+OUTCOME 41: Wake Forest vs Louisville; Wake Forest vs Miami; Wake Forest vs SMU; Wake Forest vs Virginia Tech
+OUTCOME 42: Wake Forest vs Louisville; Wake Forest vs Miami; Wake Forest vs SMU
+OUTCOME 43: Wake Forest vs Duke; Wake Forest vs Miami; Wake Forest vs SMU; Wake Forest vs Virginia Tech
+OUTCOME 44: Wake Forest vs Duke; Wake Forest vs Miami; Wake Forest vs SMU
+OUTCOME 45: Wake Forest vs Miami; Wake Forest vs SMU; Wake Forest vs Virginia Tech
+OUTCOME 46: Wake Forest vs Miami; Wake Forest vs SMU
+OUTCOME 47: Miami vs Duke; Miami vs Louisville; Miami vs SMU
+OUTCOME 48: Miami vs Duke
+OUTCOME 49: Miami vs Duke; Miami vs Louisville; Miami vs Wake Forest
+OUTCOME 50: Miami vs Duke; Miami vs Louisville
+OUTCOME 51: Miami vs Duke; Miami vs Louisville; Miami vs SMU; Miami vs Virginia Tech
+OUTCOME 52: Duke vs Miami
+OUTCOME 53: Miami vs Duke; Miami vs Louisville; Miami vs Virginia Tech; Miami vs Wake Forest
+OUTCOME 54: Duke vs Louisville; Duke vs Miami; Louisville vs Duke; Miami vs Duke; Miami vs Louisville
+OUTCOME 55: Miami vs Louisville; Miami vs SMU; Miami vs Virginia Tech
+OUTCOME 56: Miami vs Louisville; Miami vs Virginia Tech; Miami vs Wake Forest
+OUTCOME 57: Miami vs Duke; Miami vs SMU
+OUTCOME 58: Miami vs Duke; Miami vs SMU; Miami vs Virginia Tech
+OUTCOME 59: Miami vs Duke; Miami vs Virginia Tech; Miami vs Wake Forest
+OUTCOME 60: Miami vs Virginia Tech; Miami vs Wake Forest
+OUTCOME 61: Duke vs Louisville; Duke vs Miami; Duke vs Wake Forest; Louisville vs Duke; Miami vs Duke; Miami vs Louisville; Miami vs Wake Forest; Wake Forest vs Duke; Wake Forest vs Louisville; Wake Forest vs Miami
+OUTCOME 62: Duke vs Louisville; Duke vs Miami; Duke vs SMU; Duke vs Virginia Tech
+OUTCOME 63: Duke vs Louisville; Duke vs Miami; Duke vs Virginia Tech; Duke vs Wake Forest
+OUTCOME 64: Duke vs Louisville; Louisville vs Duke
+OUTCOME 65: Duke vs Louisville; Duke vs Miami; Duke vs SMU
+OUTCOME 66: Duke vs Louisville; Duke vs Miami; Duke vs Wake Forest
+OUTCOME 67: Clemson vs Duke; Clemson vs Louisville; Clemson vs Miami; Clemson vs SMU; Clemson vs Virginia Tech
+OUTCOME 68: Clemson vs Duke; Clemson vs Louisville; Clemson vs Miami; Clemson vs Virginia Tech; Clemson vs Wake Forest
+OUTCOME 69: Duke vs Louisville; Duke vs Miami; Duke vs SMU; Duke vs Virginia Tech; Louisville vs Duke; Louisville vs Miami; Louisville vs SMU; Louisville vs Virginia Tech; Miami vs Duke; Miami vs Louisville; Miami vs SMU; Miami vs Virginia Tech; SMU vs Duke; SMU vs Louisville; SMU vs Miami; SMU vs Virginia Tech; Virginia Tech vs Duke; Virginia Tech vs Louisville; Virginia Tech vs Miami; Virginia Tech vs SMU
+OUTCOME 70: Duke vs Louisville; Duke vs Miami; Duke vs Virginia Tech; Duke vs Wake Forest; Louisville vs Duke; Louisville vs Miami; Louisville vs Virginia Tech; Louisville vs Wake Forest; Miami vs Duke; Miami vs Louisville; Miami vs Virginia Tech; Miami vs Wake Forest; Virginia Tech vs Duke; Virginia Tech vs Louisville; Virginia Tech vs Miami; Virginia Tech vs Wake Forest; Wake Forest vs Duke; Wake Forest vs Louisville; Wake Forest vs Miami; Wake Forest vs Virginia Tech
+OUTCOME 71: Louisville vs Duke; Louisville vs Miami; Louisville vs SMU; Louisville vs Virginia Tech
+OUTCOME 72: Louisville vs Duke; Louisville vs Miami; Louisville vs Virginia Tech; Louisville vs Wake Forest
+OUTCOME 73: Clemson vs Duke; Clemson vs Louisville; Clemson vs Miami; Clemson vs SMU
+OUTCOME 74: Clemson vs Duke; Clemson vs Louisville; Clemson vs Miami; Clemson vs Wake Forest
+OUTCOME 75: Duke vs Louisville; Duke vs Miami; Duke vs SMU; Louisville vs Duke; Louisville vs Miami; Louisville vs SMU; Miami vs Duke; Miami vs Louisville; Miami vs SMU; SMU vs Duke; SMU vs Louisville; SMU vs Miami
+OUTCOME 76: Louisville vs Duke; Louisville vs Miami; Louisville vs SMU
+OUTCOME 77: Louisville vs Duke
+OUTCOME 78: Duke vs Miami; Duke vs SMU; Duke vs Virginia Tech
+OUTCOME 79: Duke vs Miami; Duke vs Virginia Tech; Duke vs Wake Forest
+OUTCOME 80: Duke vs Miami; Duke vs SMU
+OUTCOME 81: Clemson vs Duke; Clemson vs Miami; Clemson vs SMU; Clemson vs Virginia Tech
+OUTCOME 82: Clemson vs Duke; Clemson vs Miami; Clemson vs Virginia Tech; Clemson vs Wake Forest
+OUTCOME 83: Duke vs Miami; Duke vs SMU; Duke vs Virginia Tech; Miami vs Duke; Miami vs SMU; Miami vs Virginia Tech; SMU vs Duke; SMU vs Virginia Tech; Virginia Tech vs Duke; Virginia Tech vs Miami; Virginia Tech vs SMU
+OUTCOME 84: Duke vs Miami; Duke vs Virginia Tech; Duke vs Wake Forest; Miami vs Duke; Miami vs Virginia Tech; Miami vs Wake Forest; Virginia Tech vs Duke; Wake Forest vs Duke; Wake Forest vs Virginia Tech
+OUTCOME 85: Clemson vs Duke; Clemson vs Miami; Clemson vs SMU
+OUTCOME 86: Clemson vs Duke
+OUTCOME 87: Duke vs Miami; Duke vs SMU; Miami vs Duke; Miami vs SMU; SMU vs Duke
+OUTCOME 88: Duke vs Louisville; Duke vs Miami; Duke vs SMU; Duke vs Virginia Tech; Duke vs Wake Forest
+OUTCOME 89: Duke vs Wake Forest
+OUTCOME 90: Duke vs Wake Forest; Louisville vs Duke; Wake Forest vs Duke; Wake Forest vs Louisville
+OUTCOME 91: Duke vs Louisville; Duke vs Miami; Duke vs SMU; Duke vs Wake Forest
+OUTCOME 92: Clemson vs Duke; Clemson vs Louisville; Clemson vs Miami; Clemson vs SMU; Clemson vs Virginia Tech; Clemson vs Wake Forest
+OUTCOME 93: Clemson vs Duke; Clemson vs Louisville; Clemson vs Miami; Clemson vs SMU; Clemson vs Wake Forest
+OUTCOME 94: Duke vs Louisville; Duke vs Miami; Duke vs SMU; Duke vs Wake Forest; Louisville vs Duke; Louisville vs Miami; Louisville vs SMU; Miami vs Duke; Miami vs Louisville; Miami vs SMU; Miami vs Wake Forest; SMU vs Duke; SMU vs Louisville; SMU vs Miami; SMU vs Wake Forest; Wake Forest vs Duke; Wake Forest vs Louisville; Wake Forest vs Miami; Wake Forest vs SMU
+OUTCOME 95: Duke vs Miami; Duke vs SMU; Duke vs Virginia Tech; Duke vs Wake Forest
+OUTCOME 96: Clemson vs Duke; Clemson vs Miami; Clemson vs SMU; Clemson vs Virginia Tech; Clemson vs Wake Forest
+OUTCOME 97: Duke vs Miami; Duke vs SMU; Duke vs Virginia Tech; Duke vs Wake Forest; Miami vs Duke; Miami vs SMU; Miami vs Virginia Tech; Miami vs Wake Forest; SMU vs Duke; SMU vs Miami; SMU vs Virginia Tech; SMU vs Wake Forest; Virginia Tech vs Duke; Virginia Tech vs Miami; Virginia Tech vs SMU; Wake Forest vs Duke; Wake Forest vs Miami; Wake Forest vs SMU; Wake Forest vs Virginia Tech
+OUTCOME 98: Miami vs Pittsburgh; Miami vs SMU; Miami vs Wake Forest
+OUTCOME 99: Miami vs Duke; Miami vs Pittsburgh; Miami vs SMU; Miami vs Wake Forest
+OUTCOME 100: Miami vs Louisville; Miami vs Pittsburgh; Miami vs SMU; Miami vs Wake Forest
+OUTCOME 101: Miami vs Duke; Miami vs Louisville; Miami vs Pittsburgh; Miami vs SMU; Miami vs Wake Forest
+OUTCOME 102: Miami vs Pittsburgh; Miami vs SMU; Miami vs Virginia Tech; Miami vs Wake Forest
+OUTCOME 103: Miami vs Duke; Miami vs Pittsburgh; Miami vs SMU; Miami vs Virginia Tech; Miami vs Wake Forest
+OUTCOME 104: Miami vs Louisville; Miami vs Pittsburgh; Miami vs SMU; Miami vs Virginia Tech; Miami vs Wake Forest
+OUTCOME 105: Miami vs Duke; Miami vs Louisville; Miami vs Pittsburgh; Miami vs SMU; Miami vs Virginia Tech; Miami vs Wake Forest
+OUTCOME 106: Duke vs Miami; Duke vs Pittsburgh; Duke vs SMU; Duke vs Virginia Tech; Duke vs Wake Forest; Miami vs Duke; Miami vs Pittsburgh; Miami vs SMU; Miami vs Virginia Tech; Miami vs Wake Forest; Pittsburgh vs Duke; Pittsburgh vs Miami; Pittsburgh vs SMU; Pittsburgh vs Virginia Tech; Pittsburgh vs Wake Forest; SMU vs Duke; SMU vs Miami; SMU vs Pittsburgh; SMU vs Virginia Tech; SMU vs Wake Forest; Virginia Tech vs Duke; Virginia Tech vs Miami; Virginia Tech vs Pittsburgh; Virginia Tech vs SMU; Virginia Tech vs Wake Forest; Wake Forest vs Duke; Wake Forest vs Miami; Wake Forest vs Pittsburgh; Wake Forest vs SMU; Wake Forest vs Virginia Tech
+OUTCOME 107: Wake Forest vs Duke; Wake Forest vs Miami; Wake Forest vs Pittsburgh; Wake Forest vs Virginia Tech
+OUTCOME 108: Duke vs Louisville; Duke vs Miami; Duke vs Pittsburgh; Duke vs SMU; Duke vs Virginia Tech; Duke vs Wake Forest; Louisville vs Duke; Louisville vs Miami; Louisville vs Pittsburgh; Louisville vs SMU; Louisville vs Virginia Tech; Louisville vs Wake Forest; Miami vs Duke; Miami vs Louisville; Miami vs Pittsburgh; Miami vs SMU; Miami vs Virginia Tech; Miami vs Wake Forest; Pittsburgh vs Duke; Pittsburgh vs Louisville; Pittsburgh vs Miami; Pittsburgh vs SMU; Pittsburgh vs Virginia Tech; Pittsburgh vs Wake Forest; SMU vs Duke; SMU vs Louisville; SMU vs Miami; SMU vs Pittsburgh; SMU vs Virginia Tech; SMU vs Wake Forest; Virginia Tech vs Duke; Virginia Tech vs Louisville; Virginia Tech vs Miami; Virginia Tech vs Pittsburgh; Virginia Tech vs SMU; Virginia Tech vs Wake Forest; Wake Forest vs Duke; Wake Forest vs Louisville; Wake Forest vs Miami; Wake Forest vs Pittsburgh; Wake Forest vs SMU; Wake Forest vs Virginia Tech
+OUTCOME 109: Wake Forest vs Duke; Wake Forest vs Louisville; Wake Forest vs Miami; Wake Forest vs Pittsburgh; Wake Forest vs Virginia Tech
+OUTCOME 110: Duke vs Miami; Duke vs Pittsburgh; Duke vs SMU; Duke vs Wake Forest; Miami vs Duke; Miami vs Pittsburgh; Miami vs SMU; Miami vs Wake Forest; Pittsburgh vs Duke; Pittsburgh vs Miami; Pittsburgh vs SMU; Pittsburgh vs Wake Forest; SMU vs Duke; SMU vs Miami; SMU vs Pittsburgh; SMU vs Wake Forest; Wake Forest vs Duke; Wake Forest vs Miami; Wake Forest vs Pittsburgh; Wake Forest vs SMU
+OUTCOME 111: Wake Forest vs Duke; Wake Forest vs Miami; Wake Forest vs Pittsburgh
+OUTCOME 112: Duke vs Louisville; Duke vs Miami; Duke vs Pittsburgh; Duke vs SMU; Duke vs Wake Forest; Louisville vs Duke; Louisville vs Miami; Louisville vs Pittsburgh; Louisville vs SMU; Louisville vs Wake Forest; Miami vs Duke; Miami vs Louisville; Miami vs Pittsburgh; Miami vs SMU; Miami vs Wake Forest; Pittsburgh vs Duke; Pittsburgh vs Louisville; Pittsburgh vs Miami; Pittsburgh vs SMU; Pittsburgh vs Wake Forest; SMU vs Duke; SMU vs Louisville; SMU vs Miami; SMU vs Pittsburgh; SMU vs Wake Forest; Wake Forest vs Duke; Wake Forest vs Louisville; Wake Forest vs Miami; Wake Forest vs Pittsburgh; Wake Forest vs SMU
+OUTCOME 113: Wake Forest vs Duke; Wake Forest vs Louisville; Wake Forest vs Miami; Wake Forest vs Pittsburgh
+OUTCOME 114: Clemson vs Miami; Clemson vs Pittsburgh; Clemson vs SMU; Clemson vs Virginia Tech; Clemson vs Wake Forest
+OUTCOME 115: Miami vs Pittsburgh; Miami vs SMU; Miami vs Virginia Tech; Miami vs Wake Forest; Pittsburgh vs Miami; Pittsburgh vs SMU; Pittsburgh vs Virginia Tech; Pittsburgh vs Wake Forest; SMU vs Miami; SMU vs Pittsburgh; SMU vs Virginia Tech; SMU vs Wake Forest; Virginia Tech vs Miami; Virginia Tech vs Pittsburgh; Virginia Tech vs SMU; Virginia Tech vs Wake Forest; Wake Forest vs Miami; Wake Forest vs Pittsburgh; Wake Forest vs SMU; Wake Forest vs Virginia Tech
+OUTCOME 116: Wake Forest vs Miami; Wake Forest vs Pittsburgh; Wake Forest vs Virginia Tech
+OUTCOME 117: Clemson vs Louisville; Clemson vs Miami; Clemson vs Pittsburgh; Clemson vs SMU; Clemson vs Virginia Tech; Clemson vs Wake Forest
+OUTCOME 118: Louisville vs Miami; Louisville vs Pittsburgh; Louisville vs SMU; Louisville vs Virginia Tech; Louisville vs Wake Forest; Miami vs Louisville; Miami vs Pittsburgh; Miami vs SMU; Miami vs Virginia Tech; Miami vs Wake Forest; Pittsburgh vs Louisville; Pittsburgh vs Miami; Pittsburgh vs SMU; Pittsburgh vs Virginia Tech; Pittsburgh vs Wake Forest; SMU vs Louisville; SMU vs Miami; SMU vs Pittsburgh; SMU vs Virginia Tech; SMU vs Wake Forest; Virginia Tech vs Louisville; Virginia Tech vs Miami; Virginia Tech vs Pittsburgh; Virginia Tech vs SMU; Virginia Tech vs Wake Forest; Wake Forest vs Louisville; Wake Forest vs Miami; Wake Forest vs Pittsburgh; Wake Forest vs SMU; Wake Forest vs Virginia Tech
+OUTCOME 119: Wake Forest vs Louisville; Wake Forest vs Miami; Wake Forest vs Pittsburgh; Wake Forest vs Virginia Tech
+OUTCOME 120: Clemson vs Miami; Clemson vs Pittsburgh; Clemson vs SMU; Clemson vs Wake Forest
+OUTCOME 121: Miami vs Pittsburgh; Miami vs SMU; Miami vs Wake Forest; Pittsburgh vs Miami; Pittsburgh vs SMU; SMU vs Miami; Wake Forest vs Miami; Wake Forest vs Pittsburgh; Wake Forest vs SMU
+OUTCOME 122: Clemson vs Louisville; Clemson vs Miami; Clemson vs Pittsburgh; Clemson vs SMU; Clemson vs Wake Forest
+OUTCOME 123: Louisville vs Miami; Louisville vs Pittsburgh; Louisville vs SMU; Louisville vs Wake Forest; Miami vs Louisville; Miami vs Pittsburgh; Miami vs SMU; Miami vs Wake Forest; Pittsburgh vs Louisville; Pittsburgh vs Miami; Pittsburgh vs SMU; Pittsburgh vs Wake Forest; SMU vs Louisville; SMU vs Miami; SMU vs Pittsburgh; SMU vs Wake Forest; Wake Forest vs Louisville; Wake Forest vs Miami; Wake Forest vs Pittsburgh; Wake Forest vs SMU
+OUTCOME 124: Wake Forest vs Louisville; Wake Forest vs Miami; Wake Forest vs Pittsburgh
+OUTCOME 125: Wake Forest vs Duke; Wake Forest vs Miami; Wake Forest vs Pittsburgh; Wake Forest vs SMU; Wake Forest vs Virginia Tech
+OUTCOME 126: Wake Forest vs Duke; Wake Forest vs Louisville; Wake Forest vs Miami; Wake Forest vs Pittsburgh; Wake Forest vs SMU; Wake Forest vs Virginia Tech
+OUTCOME 127: Wake Forest vs Duke; Wake Forest vs Miami; Wake Forest vs Pittsburgh; Wake Forest vs SMU
+OUTCOME 128: Wake Forest vs Duke; Wake Forest vs Louisville; Wake Forest vs Miami; Wake Forest vs Pittsburgh; Wake Forest vs SMU
+OUTCOME 129: Wake Forest vs Miami; Wake Forest vs Pittsburgh; Wake Forest vs SMU; Wake Forest vs Virginia Tech
+OUTCOME 130: Wake Forest vs Louisville; Wake Forest vs Miami; Wake Forest vs Pittsburgh; Wake Forest vs SMU; Wake Forest vs Virginia Tech
+OUTCOME 131: Wake Forest vs Miami; Wake Forest vs Pittsburgh; Wake Forest vs SMU
+OUTCOME 132: Wake Forest vs Louisville; Wake Forest vs Miami; Wake Forest vs Pittsburgh; Wake Forest vs SMU
+OUTCOME 133: Miami vs Duke; Miami vs Pittsburgh; Miami vs SMU
+OUTCOME 134: Miami vs Duke; Miami vs Pittsburgh; Miami vs Wake Forest
+OUTCOME 135: Miami vs Duke; Miami vs Louisville; Miami vs Pittsburgh; Miami vs SMU
+OUTCOME 136: Miami vs Duke; Miami vs Louisville; Miami vs Pittsburgh; Miami vs Wake Forest
+OUTCOME 137: Miami vs Pittsburgh; Miami vs SMU
+OUTCOME 138: Miami vs Pittsburgh; Miami vs Wake Forest
+OUTCOME 139: Miami vs Louisville; Miami vs Pittsburgh; Miami vs SMU
+OUTCOME 140: Miami vs Duke; Miami vs Pittsburgh; Miami vs SMU; Miami vs Virginia Tech
+OUTCOME 141: Miami vs Duke; Miami vs Pittsburgh; Miami vs Virginia Tech; Miami vs Wake Forest
+OUTCOME 142: Miami vs Duke; Miami vs Louisville; Miami vs Pittsburgh; Miami vs SMU; Miami vs Virginia Tech
+OUTCOME 143: Miami vs Duke; Miami vs Louisville; Miami vs Pittsburgh; Miami vs Virginia Tech; Miami vs Wake Forest
+OUTCOME 144: Miami vs Pittsburgh; Miami vs Virginia Tech; Miami vs Wake Forest
+OUTCOME 145: Miami vs Louisville; Miami vs Pittsburgh; Miami vs SMU; Miami vs Virginia Tech
+OUTCOME 146: Miami vs Louisville; Miami vs Pittsburgh; Miami vs Virginia Tech; Miami vs Wake Forest
+OUTCOME 147: Duke vs Miami; Duke vs Pittsburgh; Duke vs SMU; Duke vs Virginia Tech
+OUTCOME 148: Duke vs Miami; Duke vs Pittsburgh; Duke vs Virginia Tech; Duke vs Wake Forest
+OUTCOME 149: Duke vs Louisville; Duke vs Miami; Duke vs Pittsburgh; Duke vs SMU; Duke vs Virginia Tech
+OUTCOME 150: Duke vs Louisville; Duke vs Miami; Duke vs Pittsburgh; Duke vs Virginia Tech; Duke vs Wake Forest
+OUTCOME 151: Duke vs Miami; Duke vs Pittsburgh; Duke vs SMU
+OUTCOME 152: Duke vs Louisville; Duke vs Miami; Duke vs Pittsburgh; Duke vs SMU
+OUTCOME 153: Duke vs Louisville; Duke vs Miami; Duke vs Pittsburgh; Duke vs Wake Forest
+OUTCOME 154: Clemson vs Duke; Clemson vs Miami; Clemson vs Pittsburgh; Clemson vs SMU; Clemson vs Virginia Tech
+OUTCOME 155: Clemson vs Duke; Clemson vs Miami; Clemson vs Pittsburgh; Clemson vs Virginia Tech; Clemson vs Wake Forest
+OUTCOME 156: Duke vs Miami; Duke vs Pittsburgh; Duke vs SMU; Duke vs Virginia Tech; Miami vs Duke; Miami vs Pittsburgh; Miami vs SMU; Miami vs Virginia Tech; Pittsburgh vs Duke; Pittsburgh vs Miami; Pittsburgh vs SMU; Pittsburgh vs Virginia Tech; SMU vs Duke; SMU vs Miami; SMU vs Pittsburgh; SMU vs Virginia Tech; Virginia Tech vs Duke; Virginia Tech vs Miami; Virginia Tech vs Pittsburgh; Virginia Tech vs SMU
+OUTCOME 157: Duke vs Miami; Duke vs Pittsburgh; Duke vs Virginia Tech; Duke vs Wake Forest; Miami vs Duke; Miami vs Pittsburgh; Miami vs Virginia Tech; Miami vs Wake Forest; Pittsburgh vs Duke; Pittsburgh vs Miami; Pittsburgh vs Virginia Tech; Pittsburgh vs Wake Forest; Virginia Tech vs Duke; Virginia Tech vs Miami; Virginia Tech vs Pittsburgh; Virginia Tech vs Wake Forest; Wake Forest vs Duke; Wake Forest vs Miami; Wake Forest vs Pittsburgh; Wake Forest vs Virginia Tech
+OUTCOME 158: Clemson vs Duke; Clemson vs Louisville; Clemson vs Miami; Clemson vs Pittsburgh; Clemson vs SMU; Clemson vs Virginia Tech
+OUTCOME 159: Clemson vs Duke; Clemson vs Louisville; Clemson vs Miami; Clemson vs Pittsburgh; Clemson vs Virginia Tech; Clemson vs Wake Forest
+OUTCOME 160: Duke vs Louisville; Duke vs Miami; Duke vs Pittsburgh; Duke vs SMU; Duke vs Virginia Tech; Louisville vs Duke; Louisville vs Miami; Louisville vs Pittsburgh; Louisville vs SMU; Louisville vs Virginia Tech; Miami vs Duke; Miami vs Louisville; Miami vs Pittsburgh; Miami vs SMU; Miami vs Virginia Tech; Pittsburgh vs Duke; Pittsburgh vs Louisville; Pittsburgh vs Miami; Pittsburgh vs SMU; Pittsburgh vs Virginia Tech; SMU vs Duke; SMU vs Louisville; SMU vs Miami; SMU vs Pittsburgh; SMU vs Virginia Tech; Virginia Tech vs Duke; Virginia Tech vs Louisville; Virginia Tech vs Miami; Virginia Tech vs Pittsburgh; Virginia Tech vs SMU
+OUTCOME 161: Duke vs Louisville; Duke vs Miami; Duke vs Pittsburgh; Duke vs Virginia Tech; Duke vs Wake Forest; Louisville vs Duke; Louisville vs Miami; Louisville vs Pittsburgh; Louisville vs Virginia Tech; Louisville vs Wake Forest; Miami vs Duke; Miami vs Louisville; Miami vs Pittsburgh; Miami vs Virginia Tech; Miami vs Wake Forest; Pittsburgh vs Duke; Pittsburgh vs Louisville; Pittsburgh vs Miami; Pittsburgh vs Virginia Tech; Pittsburgh vs Wake Forest; Virginia Tech vs Duke; Virginia Tech vs Louisville; Virginia Tech vs Miami; Virginia Tech vs Pittsburgh; Virginia Tech vs Wake Forest; Wake Forest vs Duke; Wake Forest vs Louisville; Wake Forest vs Miami; Wake Forest vs Pittsburgh; Wake Forest vs Virginia Tech
+OUTCOME 162: Clemson vs Duke; Clemson vs Miami; Clemson vs Pittsburgh; Clemson vs SMU
+OUTCOME 163: Clemson vs Duke; Clemson vs Miami; Clemson vs Pittsburgh; Clemson vs Wake Forest
+OUTCOME 164: Duke vs Miami; Duke vs Pittsburgh; Duke vs SMU; Miami vs Duke; Miami vs Pittsburgh; Miami vs SMU; Pittsburgh vs Duke; Pittsburgh vs Miami; Pittsburgh vs SMU; SMU vs Duke; SMU vs Miami; SMU vs Pittsburgh
+OUTCOME 165: Duke vs Miami; Miami vs Duke; Miami vs Pittsburgh; Miami vs Wake Forest; Pittsburgh vs Duke; Wake Forest vs Duke; Wake Forest vs Miami; Wake Forest vs Pittsburgh
+OUTCOME 166: Clemson vs Duke; Clemson vs Louisville; Clemson vs Miami; Clemson vs Pittsburgh; Clemson vs SMU
+OUTCOME 167: Clemson vs Duke; Clemson vs Louisville; Clemson vs Miami; Clemson vs Pittsburgh; Clemson vs Wake Forest
+OUTCOME 168: Duke vs Louisville; Duke vs Miami; Duke vs Pittsburgh; Duke vs SMU; Louisville vs Duke; Louisville vs Miami; Louisville vs Pittsburgh; Louisville vs SMU; Miami vs Duke; Miami vs Louisville; Miami vs Pittsburgh; Miami vs SMU; Pittsburgh vs Duke; Pittsburgh vs Louisville; Pittsburgh vs Miami; Pittsburgh vs SMU; SMU vs Duke; SMU vs Louisville; SMU vs Miami; SMU vs Pittsburgh
+OUTCOME 169: Duke vs Louisville; Duke vs Miami; Duke vs Pittsburgh; Duke vs Wake Forest; Louisville vs Duke; Louisville vs Miami; Louisville vs Pittsburgh; Louisville vs Wake Forest; Miami vs Duke; Miami vs Louisville; Miami vs Pittsburgh; Miami vs Wake Forest; Pittsburgh vs Duke; Pittsburgh vs Louisville; Pittsburgh vs Miami; Pittsburgh vs Wake Forest; Wake Forest vs Duke; Wake Forest vs Louisville; Wake Forest vs Miami; Wake Forest vs Pittsburgh
+OUTCOME 170: Duke vs Miami; Duke vs Pittsburgh; Duke vs SMU; Duke vs Virginia Tech; Duke vs Wake Forest
+OUTCOME 171: Duke vs Louisville; Duke vs Miami; Duke vs Pittsburgh; Duke vs SMU; Duke vs Virginia Tech; Duke vs Wake Forest
+OUTCOME 172: Duke vs Miami; Duke vs Pittsburgh; Duke vs SMU; Duke vs Wake Forest
+OUTCOME 173: Duke vs Louisville; Duke vs Miami; Duke vs Pittsburgh; Duke vs SMU; Duke vs Wake Forest
+OUTCOME 174: Clemson vs Duke; Clemson vs Miami; Clemson vs Pittsburgh; Clemson vs SMU; Clemson vs Virginia Tech; Clemson vs Wake Forest
+OUTCOME 175: Clemson vs Duke; Clemson vs Louisville; Clemson vs Miami; Clemson vs Pittsburgh; Clemson vs SMU; Clemson vs Virginia Tech; Clemson vs Wake Forest
+OUTCOME 176: Clemson vs Duke; Clemson vs Miami; Clemson vs Pittsburgh; Clemson vs SMU; Clemson vs Wake Forest
+OUTCOME 177: Duke vs Miami; Duke vs Pittsburgh; Duke vs SMU; Duke vs Wake Forest; Miami vs Duke; Miami vs Pittsburgh; Miami vs SMU; Miami vs Wake Forest; Pittsburgh vs Duke; Pittsburgh vs Miami; Pittsburgh vs SMU; SMU vs Duke; SMU vs Miami; SMU vs Pittsburgh; SMU vs Wake Forest; Wake Forest vs Duke; Wake Forest vs Miami; Wake Forest vs Pittsburgh; Wake Forest vs SMU
+OUTCOME 178: Clemson vs Duke; Clemson vs Louisville; Clemson vs Miami; Clemson vs Pittsburgh; Clemson vs SMU; Clemson vs Wake Forest
+OUTCOME 179: Louisville vs Miami; Louisville vs SMU; Miami vs Louisville; SMU vs Louisville; SMU vs Miami
+OUTCOME 180: SMU vs Duke; SMU vs Louisville; SMU vs Miami; SMU vs Virginia Tech; SMU vs Wake Forest
+OUTCOME 181: Louisville vs SMU
+OUTCOME 182: SMU vs Duke; SMU vs Louisville; SMU vs Miami; SMU vs Wake Forest
+OUTCOME 183: SMU vs Clemson
+OUTCOME 184: SMU vs Louisville; SMU vs Miami; SMU vs Virginia Tech; SMU vs Wake Forest
+OUTCOME 185: SMU vs Louisville; SMU vs Miami; SMU vs Wake Forest
+OUTCOME 186: SMU vs Duke; SMU vs Miami; SMU vs Virginia Tech; SMU vs Wake Forest
+OUTCOME 187: SMU vs Duke; SMU vs Miami; SMU vs Wake Forest
+OUTCOME 188: SMU vs Miami; SMU vs Virginia Tech; SMU vs Wake Forest
+OUTCOME 189: SMU vs Miami
+OUTCOME 190: SMU vs Wake Forest
+OUTCOME 191: Louisville vs SMU; SMU vs Wake Forest; Wake Forest vs Louisville
+OUTCOME 192: Miami vs SMU; Miami vs Virginia Tech; Miami vs Wake Forest
+OUTCOME 193: Duke vs SMU; SMU vs Duke
+OUTCOME 194: Duke vs Louisville; Louisville vs Duke; Louisville vs SMU; SMU vs Duke; SMU vs Louisville
+OUTCOME 195: SMU vs Duke; SMU vs Louisville; SMU vs Miami; SMU vs Virginia Tech
+OUTCOME 196: SMU vs Duke; SMU vs Louisville; SMU vs Miami
+OUTCOME 197: Duke vs Miami; Duke vs SMU; Duke vs Wake Forest
+OUTCOME 198: SMU vs Duke; SMU vs Virginia Tech
+OUTCOME 199: Clemson vs Duke; Clemson vs Miami; Clemson vs SMU; Clemson vs Wake Forest
+OUTCOME 200: SMU vs Duke
+OUTCOME 201: Duke vs Miami; Duke vs SMU; Duke vs Wake Forest; Miami vs Duke; Miami vs SMU; Miami vs Wake Forest; SMU vs Duke; Wake Forest vs Duke; Wake Forest vs Miami; Wake Forest vs SMU
+OUTCOME 202: SMU vs Duke; SMU vs Miami; SMU vs Pittsburgh; SMU vs Virginia Tech; SMU vs Wake Forest
+OUTCOME 203: SMU vs Duke; SMU vs Louisville; SMU vs Miami; SMU vs Pittsburgh; SMU vs Virginia Tech; SMU vs Wake Forest
+OUTCOME 204: SMU vs Duke; SMU vs Miami; SMU vs Pittsburgh; SMU vs Wake Forest
+OUTCOME 205: SMU vs Duke; SMU vs Louisville; SMU vs Miami; SMU vs Pittsburgh; SMU vs Wake Forest
+OUTCOME 206: SMU vs Miami; SMU vs Pittsburgh; SMU vs Virginia Tech; SMU vs Wake Forest
+OUTCOME 207: SMU vs Louisville; SMU vs Miami; SMU vs Pittsburgh; SMU vs Virginia Tech; SMU vs Wake Forest
+OUTCOME 208: SMU vs Louisville; SMU vs Miami; SMU vs Pittsburgh; SMU vs Wake Forest
+OUTCOME 209: SMU vs Duke; SMU vs Miami; SMU vs Pittsburgh; SMU vs Virginia Tech
+OUTCOME 210: SMU vs Duke; SMU vs Louisville; SMU vs Miami; SMU vs Pittsburgh; SMU vs Virginia Tech
+OUTCOME 211: SMU vs Duke; SMU vs Miami; SMU vs Pittsburgh
+OUTCOME 212: SMU vs Duke; SMU vs Louisville; SMU vs Miami; SMU vs Pittsburgh
+
+DECISION NODES
+NODE 213: November 13 — Florida State at Pittsburgh -> Florida State wins: OUTCOME 9; Pittsburgh wins: OUTCOME 98
+NODE 214: November 13 — Florida State at Pittsburgh -> Florida State wins: OUTCOME 10; Pittsburgh wins: OUTCOME 99
+NODE 215: November 13 — Florida State at Pittsburgh -> Florida State wins: OUTCOME 0; Pittsburgh wins: OUTCOME 100
+NODE 216: November 13 — Florida State at Pittsburgh -> Florida State wins: OUTCOME 1; Pittsburgh wins: OUTCOME 101
+NODE 217: November 13 — Florida State at Pittsburgh -> Florida State wins: OUTCOME 9; Pittsburgh wins: OUTCOME 102
+NODE 218: November 13 — Florida State at Pittsburgh -> Florida State wins: OUTCOME 11; Pittsburgh wins: OUTCOME 103
+NODE 219: November 13 — Florida State at Pittsburgh -> Florida State wins: OUTCOME 5; Pittsburgh wins: OUTCOME 104
+NODE 220: November 13 — Florida State at Pittsburgh -> Florida State wins: OUTCOME 6; Pittsburgh wins: OUTCOME 105
+NODE 221: November 13 — Florida State at Pittsburgh -> Florida State wins: OUTCOME 30; Pittsburgh wins: OUTCOME 106
+NODE 222: November 13 — Florida State at Pittsburgh -> Florida State wins: OUTCOME 31; Pittsburgh wins: OUTCOME 107
+NODE 223: November 13 — Florida State at Pittsburgh -> Florida State wins: OUTCOME 14; Pittsburgh wins: OUTCOME 108
+NODE 224: November 13 — Florida State at Pittsburgh -> Florida State wins: OUTCOME 15; Pittsburgh wins: OUTCOME 109
+NODE 225: November 13 — Florida State at Pittsburgh -> Florida State wins: OUTCOME 32; Pittsburgh wins: OUTCOME 110
+NODE 226: November 13 — Florida State at Pittsburgh -> Florida State wins: OUTCOME 33; Pittsburgh wins: OUTCOME 111
+NODE 227: November 13 — Florida State at Pittsburgh -> Florida State wins: OUTCOME 18; Pittsburgh wins: OUTCOME 112
+NODE 228: November 13 — Florida State at Pittsburgh -> Florida State wins: OUTCOME 19; Pittsburgh wins: OUTCOME 113
+NODE 229: November 13 — Florida State at Pittsburgh -> Florida State wins: OUTCOME 34; Pittsburgh wins: OUTCOME 114
+NODE 230: November 13 — Florida State at Pittsburgh -> Florida State wins: OUTCOME 35; Pittsburgh wins: OUTCOME 115
+NODE 231: November 13 — Florida State at Pittsburgh -> Florida State wins: OUTCOME 36; Pittsburgh wins: OUTCOME 116
+NODE 232: November 13 — Florida State at Pittsburgh -> Florida State wins: OUTCOME 21; Pittsburgh wins: OUTCOME 117
+NODE 233: November 13 — Florida State at Pittsburgh -> Florida State wins: OUTCOME 23; Pittsburgh wins: OUTCOME 118
+NODE 234: November 13 — Florida State at Pittsburgh -> Florida State wins: OUTCOME 24; Pittsburgh wins: OUTCOME 119
+NODE 235: November 13 — Florida State at Pittsburgh -> Florida State wins: OUTCOME 37; Pittsburgh wins: OUTCOME 120
+NODE 236: November 13 — Florida State at Pittsburgh -> Florida State wins: OUTCOME 38; Pittsburgh wins: OUTCOME 121
+NODE 237: November 13 — Florida State at Pittsburgh -> Florida State wins: OUTCOME 27; Pittsburgh wins: OUTCOME 122
+NODE 238: November 13 — Florida State at Pittsburgh -> Florida State wins: OUTCOME 28; Pittsburgh wins: OUTCOME 123
+NODE 239: November 13 — Florida State at Pittsburgh -> Florida State wins: OUTCOME 13; Pittsburgh wins: OUTCOME 124
+NODE 240: November 13 — Florida State at Pittsburgh -> Florida State wins: OUTCOME 43; Pittsburgh wins: OUTCOME 125
+NODE 241: November 13 — Florida State at Pittsburgh -> Florida State wins: OUTCOME 39; Pittsburgh wins: OUTCOME 126
+NODE 242: November 13 — Florida State at Pittsburgh -> Florida State wins: OUTCOME 44; Pittsburgh wins: OUTCOME 127
+NODE 243: November 13 — Florida State at Pittsburgh -> Florida State wins: OUTCOME 40; Pittsburgh wins: OUTCOME 128
+NODE 244: November 13 — Florida State at Pittsburgh -> Florida State wins: OUTCOME 45; Pittsburgh wins: OUTCOME 129
+NODE 245: November 13 — Florida State at Pittsburgh -> Florida State wins: OUTCOME 41; Pittsburgh wins: OUTCOME 130
+NODE 246: November 13 — Florida State at Pittsburgh -> Florida State wins: OUTCOME 46; Pittsburgh wins: OUTCOME 131
+NODE 247: November 13 — Florida State at Pittsburgh -> Florida State wins: OUTCOME 42; Pittsburgh wins: OUTCOME 132
+NODE 248: November 13 — Florida State at Pittsburgh -> Florida State wins: OUTCOME 57; Pittsburgh wins: OUTCOME 133
+NODE 249: November 13 — Florida State at Pittsburgh -> Florida State wins: OUTCOME 48; Pittsburgh wins: OUTCOME 134
+NODE 250: November 13 — Florida State at Pittsburgh -> Florida State wins: OUTCOME 47; Pittsburgh wins: OUTCOME 135
+NODE 251: November 13 — Florida State at Pittsburgh -> Florida State wins: OUTCOME 49; Pittsburgh wins: OUTCOME 136
+NODE 252: November 13 — Florida State at Pittsburgh -> Florida State wins: OUTCOME 9; Pittsburgh wins: OUTCOME 137
+NODE 253: November 13 — Florida State at Pittsburgh -> Florida State wins: OUTCOME 2; Pittsburgh wins: OUTCOME 138
+NODE 254: November 13 — Florida State at Pittsburgh -> Florida State wins: OUTCOME 3; Pittsburgh wins: OUTCOME 139
+NODE 255: November 13 — Florida State at Pittsburgh -> Florida State wins: OUTCOME 58; Pittsburgh wins: OUTCOME 140
+NODE 256: November 13 — Florida State at Pittsburgh -> Florida State wins: OUTCOME 59; Pittsburgh wins: OUTCOME 141
+NODE 257: November 13 — Florida State at Pittsburgh -> Florida State wins: OUTCOME 51; Pittsburgh wins: OUTCOME 142
+NODE 258: November 13 — Florida State at Pittsburgh -> Florida State wins: OUTCOME 53; Pittsburgh wins: OUTCOME 143
+NODE 259: November 13 — Florida State at Pittsburgh -> Florida State wins: OUTCOME 60; Pittsburgh wins: OUTCOME 144
+NODE 260: November 13 — Florida State at Pittsburgh -> Florida State wins: OUTCOME 55; Pittsburgh wins: OUTCOME 145
+NODE 261: November 13 — Florida State at Pittsburgh -> Florida State wins: OUTCOME 56; Pittsburgh wins: OUTCOME 146
+NODE 262: November 13 — Florida State at Pittsburgh -> Florida State wins: OUTCOME 57; Pittsburgh wins: OUTCOME 99
+NODE 263: November 13 — Florida State at Pittsburgh -> Florida State wins: OUTCOME 78; Pittsburgh wins: OUTCOME 147
+NODE 264: November 13 — Florida State at Pittsburgh -> Florida State wins: OUTCOME 79; Pittsburgh wins: OUTCOME 148
+NODE 265: November 13 — Florida State at Pittsburgh -> Florida State wins: OUTCOME 62; Pittsburgh wins: OUTCOME 149
+NODE 266: November 13 — Florida State at Pittsburgh -> Florida State wins: OUTCOME 63; Pittsburgh wins: OUTCOME 150
+NODE 267: November 13 — Florida State at Pittsburgh -> Florida State wins: OUTCOME 80; Pittsburgh wins: OUTCOME 151
+NODE 268: November 13 — Florida State at Pittsburgh -> Florida State wins: OUTCOME 65; Pittsburgh wins: OUTCOME 152
+NODE 269: November 13 — Florida State at Pittsburgh -> Florida State wins: OUTCOME 66; Pittsburgh wins: OUTCOME 153
+NODE 270: November 13 — Florida State at Pittsburgh -> Florida State wins: OUTCOME 81; Pittsburgh wins: OUTCOME 154
+NODE 271: November 13 — Florida State at Pittsburgh -> Florida State wins: OUTCOME 82; Pittsburgh wins: OUTCOME 155
+NODE 272: November 13 — Florida State at Pittsburgh -> Florida State wins: OUTCOME 83; Pittsburgh wins: OUTCOME 156
+NODE 273: November 13 — Florida State at Pittsburgh -> Florida State wins: OUTCOME 84; Pittsburgh wins: OUTCOME 157
+NODE 274: November 13 — Florida State at Pittsburgh -> Florida State wins: OUTCOME 67; Pittsburgh wins: OUTCOME 158
+NODE 275: November 13 — Florida State at Pittsburgh -> Florida State wins: OUTCOME 68; Pittsburgh wins: OUTCOME 159
+NODE 276: November 13 — Florida State at Pittsburgh -> Florida State wins: OUTCOME 69; Pittsburgh wins: OUTCOME 160
+NODE 277: November 13 — Florida State at Pittsburgh -> Florida State wins: OUTCOME 70; Pittsburgh wins: OUTCOME 161
+NODE 278: November 13 — Florida State at Pittsburgh -> Florida State wins: OUTCOME 85; Pittsburgh wins: OUTCOME 162
+NODE 279: November 13 — Florida State at Pittsburgh -> Florida State wins: OUTCOME 86; Pittsburgh wins: OUTCOME 163
+NODE 280: November 13 — Florida State at Pittsburgh -> Florida State wins: OUTCOME 87; Pittsburgh wins: OUTCOME 164
+NODE 281: November 13 — Florida State at Pittsburgh -> Florida State wins: OUTCOME 52; Pittsburgh wins: OUTCOME 165
+NODE 282: November 13 — Florida State at Pittsburgh -> Florida State wins: OUTCOME 73; Pittsburgh wins: OUTCOME 166
+NODE 283: November 13 — Florida State at Pittsburgh -> Florida State wins: OUTCOME 74; Pittsburgh wins: OUTCOME 167
+NODE 284: November 13 — Florida State at Pittsburgh -> Florida State wins: OUTCOME 75; Pittsburgh wins: OUTCOME 168
+NODE 285: November 13 — Florida State at Pittsburgh -> Florida State wins: OUTCOME 61; Pittsburgh wins: OUTCOME 169
+NODE 286: November 13 — Florida State at Pittsburgh -> Florida State wins: OUTCOME 95; Pittsburgh wins: OUTCOME 170
+NODE 287: November 13 — Florida State at Pittsburgh -> Florida State wins: OUTCOME 88; Pittsburgh wins: OUTCOME 171
+NODE 288: November 13 — Florida State at Pittsburgh -> Florida State wins: OUTCOME 80; Pittsburgh wins: OUTCOME 172
+NODE 289: November 13 — Florida State at Pittsburgh -> Florida State wins: OUTCOME 91; Pittsburgh wins: OUTCOME 173
+NODE 290: November 13 — Florida State at Pittsburgh -> Florida State wins: OUTCOME 96; Pittsburgh wins: OUTCOME 174
+NODE 291: November 13 — Florida State at Pittsburgh -> Florida State wins: OUTCOME 97; Pittsburgh wins: OUTCOME 106
+NODE 292: November 13 — Florida State at Pittsburgh -> Florida State wins: OUTCOME 92; Pittsburgh wins: OUTCOME 175
+NODE 293: November 13 — Florida State at Pittsburgh -> Florida State wins: OUTCOME 85; Pittsburgh wins: OUTCOME 176
+NODE 294: November 13 — Florida State at Pittsburgh -> Florida State wins: OUTCOME 87; Pittsburgh wins: OUTCOME 177
+NODE 295: November 13 — Florida State at Pittsburgh -> Florida State wins: OUTCOME 93; Pittsburgh wins: OUTCOME 178
+NODE 296: November 13 — Florida State at Pittsburgh -> Florida State wins: OUTCOME 94; Pittsburgh wins: OUTCOME 112
+NODE 297: November 13 — Florida State at Pittsburgh -> Florida State wins: OUTCOME 186; Pittsburgh wins: OUTCOME 202
+NODE 298: November 13 — Florida State at Pittsburgh -> Florida State wins: OUTCOME 180; Pittsburgh wins: OUTCOME 203
+NODE 299: November 13 — Florida State at Pittsburgh -> Florida State wins: OUTCOME 187; Pittsburgh wins: OUTCOME 204
+NODE 300: November 13 — Florida State at Pittsburgh -> Florida State wins: OUTCOME 182; Pittsburgh wins: OUTCOME 205
+NODE 301: November 13 — Florida State at Pittsburgh -> Florida State wins: OUTCOME 188; Pittsburgh wins: OUTCOME 206
+NODE 302: November 13 — Florida State at Pittsburgh -> Florida State wins: OUTCOME 184; Pittsburgh wins: OUTCOME 207
+NODE 303: November 13 — Florida State at Pittsburgh -> Florida State wins: OUTCOME 185; Pittsburgh wins: OUTCOME 208
+NODE 304: November 13 — Florida State at Pittsburgh -> Florida State wins: OUTCOME 2; Pittsburgh wins: OUTCOME 98
+NODE 305: November 13 — Florida State at Pittsburgh -> Florida State wins: OUTCOME 2; Pittsburgh wins: OUTCOME 100
+NODE 306: November 13 — Florida State at Pittsburgh -> Florida State wins: OUTCOME 192; Pittsburgh wins: OUTCOME 102
+NODE 307: November 13 — Florida State at Pittsburgh -> Florida State wins: OUTCOME 197; Pittsburgh wins: OUTCOME 172
+NODE 308: November 13 — Florida State at Pittsburgh -> Florida State wins: OUTCOME 198; Pittsburgh wins: OUTCOME 209
+NODE 309: November 13 — Florida State at Pittsburgh -> Florida State wins: OUTCOME 195; Pittsburgh wins: OUTCOME 210
+NODE 310: November 13 — Florida State at Pittsburgh -> Florida State wins: OUTCOME 199; Pittsburgh wins: OUTCOME 176
+NODE 311: November 13 — Florida State at Pittsburgh -> Florida State wins: OUTCOME 200; Pittsburgh wins: OUTCOME 211
+NODE 312: November 13 — Florida State at Pittsburgh -> Florida State wins: OUTCOME 201; Pittsburgh wins: OUTCOME 110
+NODE 313: November 13 — Florida State at Pittsburgh -> Florida State wins: OUTCOME 196; Pittsburgh wins: OUTCOME 212
+NODE 314: November 13 — Florida State at Pittsburgh -> Florida State wins: OUTCOME 200; Pittsburgh wins: OUTCOME 204
+NODE 315: November 14 — Duke at Miami (FL) -> Duke wins: OUTCOME 1; Miami (FL) wins: OUTCOME 0
+NODE 316: November 14 — Duke at Miami (FL) -> Duke wins: OUTCOME 6; Miami (FL) wins: OUTCOME 5
+NODE 317: November 14 — Duke at Miami (FL) -> Duke wins: OUTCOME 7; Miami (FL) wins: OUTCOME 3
+NODE 318: November 14 — Duke at Miami (FL) -> Duke wins: OUTCOME 8; Miami (FL) wins: OUTCOME 2
+NODE 319: November 14 — Duke at Miami (FL) -> Duke wins: OUTCOME 10; Miami (FL) wins: OUTCOME 9
+NODE 320: November 14 — Duke at Miami (FL) -> Duke wins: OUTCOME 11; Miami (FL) wins: OUTCOME 9
+NODE 321: November 14 — Duke at Miami (FL) -> Duke wins: OUTCOME 12; Miami (FL) wins: OUTCOME 2
+NODE 322: November 14 — Duke at Miami (FL) -> Duke wins: OUTCOME 13; Miami (FL) wins: OUTCOME 2
+NODE 323: November 14 — Duke at Miami (FL) -> Duke wins: OUTCOME 14; Miami (FL) wins: OUTCOME 5
+NODE 324: November 14 — Duke at Miami (FL) -> Duke wins: OUTCOME 15; Miami (FL) wins: OUTCOME 2
+NODE 325: November 14 — Duke at Miami (FL) -> Duke wins: OUTCOME 16; Miami (FL) wins: OUTCOME 7
+NODE 326: November 14 — Duke at Miami (FL) -> Duke wins: OUTCOME 17; Miami (FL) wins: OUTCOME 8
+NODE 327: November 14 — Duke at Miami (FL) -> Duke wins: OUTCOME 18; Miami (FL) wins: OUTCOME 0
+NODE 328: November 14 — Duke at Miami (FL) -> Duke wins: OUTCOME 19; Miami (FL) wins: OUTCOME 2
+NODE 329: November 14 — Duke at Miami (FL) -> Duke wins: OUTCOME 20; Miami (FL) wins: OUTCOME 7
+NODE 330: November 14 — Duke at Miami (FL) -> Duke wins: OUTCOME 21; Miami (FL) wins: OUTCOME 4
+NODE 331: November 14 — Duke at Miami (FL) -> Duke wins: OUTCOME 22; Miami (FL) wins: OUTCOME 2
+NODE 332: November 14 — Duke at Miami (FL) -> Duke wins: OUTCOME 23; Miami (FL) wins: OUTCOME 5
+NODE 333: November 14 — Duke at Miami (FL) -> Duke wins: OUTCOME 24; Miami (FL) wins: OUTCOME 2
+NODE 334: November 14 — Duke at Miami (FL) -> Duke wins: OUTCOME 25; Miami (FL) wins: OUTCOME 7
+NODE 335: November 14 — Duke at Miami (FL) -> Duke wins: OUTCOME 26; Miami (FL) wins: OUTCOME 7
+NODE 336: November 14 — Duke at Miami (FL) -> Duke wins: OUTCOME 27; Miami (FL) wins: OUTCOME 4
+NODE 337: November 14 — Duke at Miami (FL) -> Duke wins: OUTCOME 28; Miami (FL) wins: OUTCOME 0
+NODE 338: November 14 — Duke at Miami (FL) -> Duke wins: OUTCOME 29; Miami (FL) wins: OUTCOME 7
+NODE 339: November 14 — Duke at Miami (FL) -> Duke wins: OUTCOME 30; Miami (FL) wins: OUTCOME 9
+NODE 340: November 14 — Duke at Miami (FL) -> Duke wins: OUTCOME 31; Miami (FL) wins: OUTCOME 2
+NODE 341: November 14 — Duke at Miami (FL) -> Duke wins: OUTCOME 32; Miami (FL) wins: OUTCOME 9
+NODE 342: November 14 — Duke at Miami (FL) -> Duke wins: OUTCOME 33; Miami (FL) wins: OUTCOME 2
+NODE 343: November 14 — Duke at Miami (FL) -> Duke wins: OUTCOME 34; Miami (FL) wins: OUTCOME 4
+NODE 344: November 14 — Duke at Miami (FL) -> Duke wins: OUTCOME 35; Miami (FL) wins: OUTCOME 9
+NODE 345: November 14 — Duke at Miami (FL) -> Duke wins: OUTCOME 36; Miami (FL) wins: OUTCOME 2
+NODE 346: November 14 — Duke at Miami (FL) -> Duke wins: OUTCOME 37; Miami (FL) wins: OUTCOME 4
+NODE 347: November 14 — Duke at Miami (FL) -> Duke wins: OUTCOME 38; Miami (FL) wins: OUTCOME 9
+NODE 348: November 14 — Duke at Miami (FL) -> Duke wins: OUTCOME 39; Miami (FL) wins: OUTCOME 2
+NODE 349: November 14 — Duke at Miami (FL) -> Duke wins: OUTCOME 15; Miami (FL) wins: OUTCOME 12
+NODE 350: November 14 — Duke at Miami (FL) -> Duke wins: OUTCOME 17; Miami (FL) wins: OUTCOME 13
+NODE 351: November 14 — Duke at Miami (FL) -> Duke wins: OUTCOME 40; Miami (FL) wins: OUTCOME 2
+NODE 352: November 14 — Duke at Miami (FL) -> Duke wins: OUTCOME 19; Miami (FL) wins: OUTCOME 12
+NODE 353: November 14 — Duke at Miami (FL) -> Duke wins: OUTCOME 22; Miami (FL) wins: OUTCOME 12
+NODE 354: November 14 — Duke at Miami (FL) -> Duke wins: OUTCOME 41; Miami (FL) wins: OUTCOME 2
+NODE 355: November 14 — Duke at Miami (FL) -> Duke wins: OUTCOME 24; Miami (FL) wins: OUTCOME 12
+NODE 356: November 14 — Duke at Miami (FL) -> Duke wins: OUTCOME 42; Miami (FL) wins: OUTCOME 2
+NODE 357: November 14 — Duke at Miami (FL) -> Duke wins: OUTCOME 13; Miami (FL) wins: OUTCOME 12
+NODE 358: November 14 — Duke at Miami (FL) -> Duke wins: OUTCOME 43; Miami (FL) wins: OUTCOME 2
+NODE 359: November 14 — Duke at Miami (FL) -> Duke wins: OUTCOME 31; Miami (FL) wins: OUTCOME 12
+NODE 360: November 14 — Duke at Miami (FL) -> Duke wins: OUTCOME 44; Miami (FL) wins: OUTCOME 2
+NODE 361: November 14 — Duke at Miami (FL) -> Duke wins: OUTCOME 33; Miami (FL) wins: OUTCOME 12
+NODE 362: November 14 — Duke at Miami (FL) -> Duke wins: OUTCOME 45; Miami (FL) wins: OUTCOME 2
+NODE 363: November 14 — Duke at Miami (FL) -> Duke wins: OUTCOME 36; Miami (FL) wins: OUTCOME 12
+NODE 364: November 14 — Duke at Miami (FL) -> Duke wins: OUTCOME 46; Miami (FL) wins: OUTCOME 2
+NODE 365: November 14 — Duke at Miami (FL) -> Duke wins: OUTCOME 48; Miami (FL) wins: OUTCOME 47
+NODE 366: November 14 — Duke at Miami (FL) -> Duke wins: OUTCOME 48; Miami (FL) wins: OUTCOME 49
+NODE 367: November 14 — Duke at Miami (FL) -> Duke wins: OUTCOME 50; Miami (FL) wins: OUTCOME 3
+NODE 368: November 14 — Duke at Miami (FL) -> Duke wins: OUTCOME 47; Miami (FL) wins: OUTCOME 3
+NODE 369: November 14 — Duke at Miami (FL) -> Duke wins: OUTCOME 49; Miami (FL) wins: OUTCOME 2
+NODE 370: November 14 — Duke at Miami (FL) -> Duke wins: OUTCOME 52; Miami (FL) wins: OUTCOME 51
+NODE 371: November 14 — Duke at Miami (FL) -> Duke wins: OUTCOME 52; Miami (FL) wins: OUTCOME 53
+NODE 372: November 14 — Duke at Miami (FL) -> Duke wins: OUTCOME 54; Miami (FL) wins: OUTCOME 3
+NODE 373: November 14 — Duke at Miami (FL) -> Duke wins: OUTCOME 52; Miami (FL) wins: OUTCOME 47
+NODE 374: November 14 — Duke at Miami (FL) -> Duke wins: OUTCOME 52; Miami (FL) wins: OUTCOME 49
+NODE 375: November 14 — Duke at Miami (FL) -> Duke wins: OUTCOME 51; Miami (FL) wins: OUTCOME 55
+NODE 376: November 14 — Duke at Miami (FL) -> Duke wins: OUTCOME 53; Miami (FL) wins: OUTCOME 56
+NODE 377: November 14 — Duke at Miami (FL) -> Duke wins: OUTCOME 48; Miami (FL) wins: OUTCOME 57
+NODE 378: November 14 — Duke at Miami (FL) -> Duke wins: OUTCOME 57; Miami (FL) wins: OUTCOME 9
+NODE 379: November 14 — Duke at Miami (FL) -> Duke wins: OUTCOME 48; Miami (FL) wins: OUTCOME 2
+NODE 380: November 14 — Duke at Miami (FL) -> Duke wins: OUTCOME 52; Miami (FL) wins: OUTCOME 58
+NODE 381: November 14 — Duke at Miami (FL) -> Duke wins: OUTCOME 52; Miami (FL) wins: OUTCOME 59
+NODE 382: November 14 — Duke at Miami (FL) -> Duke wins: OUTCOME 52; Miami (FL) wins: OUTCOME 57
+NODE 383: November 14 — Duke at Miami (FL) -> Duke wins: OUTCOME 52; Miami (FL) wins: OUTCOME 48
+NODE 384: November 14 — Duke at Miami (FL) -> Duke wins: OUTCOME 58; Miami (FL) wins: OUTCOME 9
+NODE 385: November 14 — Duke at Miami (FL) -> Duke wins: OUTCOME 59; Miami (FL) wins: OUTCOME 60
+NODE 386: November 14 — Duke at Miami (FL) -> Duke wins: OUTCOME 48; Miami (FL) wins: OUTCOME 1
+NODE 387: November 14 — Duke at Miami (FL) -> Duke wins: OUTCOME 52; Miami (FL) wins: OUTCOME 6
+NODE 388: November 14 — Duke at Miami (FL) -> Duke wins: OUTCOME 52; Miami (FL) wins: OUTCOME 2
+NODE 389: November 14 — Duke at Miami (FL) -> Duke wins: OUTCOME 61; Miami (FL) wins: OUTCOME 2
+NODE 390: November 14 — Duke at Miami (FL) -> Duke wins: OUTCOME 52; Miami (FL) wins: OUTCOME 1
+NODE 391: November 14 — Duke at Miami (FL) -> Duke wins: OUTCOME 52; Miami (FL) wins: OUTCOME 11
+NODE 392: November 14 — Duke at Miami (FL) -> Duke wins: OUTCOME 62; Miami (FL) wins: OUTCOME 51
+NODE 393: November 14 — Duke at Miami (FL) -> Duke wins: OUTCOME 63; Miami (FL) wins: OUTCOME 53
+NODE 394: November 14 — Duke at Miami (FL) -> Duke wins: OUTCOME 64; Miami (FL) wins: OUTCOME 7
+NODE 395: November 14 — Duke at Miami (FL) -> Duke wins: OUTCOME 65; Miami (FL) wins: OUTCOME 47
+NODE 396: November 14 — Duke at Miami (FL) -> Duke wins: OUTCOME 66; Miami (FL) wins: OUTCOME 49
+NODE 397: November 14 — Duke at Miami (FL) -> Duke wins: OUTCOME 67; Miami (FL) wins: OUTCOME 4
+NODE 398: November 14 — Duke at Miami (FL) -> Duke wins: OUTCOME 68; Miami (FL) wins: OUTCOME 4
+NODE 399: November 14 — Duke at Miami (FL) -> Duke wins: OUTCOME 69; Miami (FL) wins: OUTCOME 55
+NODE 400: November 14 — Duke at Miami (FL) -> Duke wins: OUTCOME 70; Miami (FL) wins: OUTCOME 56
+NODE 401: November 14 — Duke at Miami (FL) -> Duke wins: OUTCOME 71; Miami (FL) wins: OUTCOME 7
+NODE 402: November 14 — Duke at Miami (FL) -> Duke wins: OUTCOME 72; Miami (FL) wins: OUTCOME 7
+NODE 403: November 14 — Duke at Miami (FL) -> Duke wins: OUTCOME 73; Miami (FL) wins: OUTCOME 4
+NODE 404: November 14 — Duke at Miami (FL) -> Duke wins: OUTCOME 74; Miami (FL) wins: OUTCOME 4
+NODE 405: November 14 — Duke at Miami (FL) -> Duke wins: OUTCOME 75; Miami (FL) wins: OUTCOME 3
+NODE 406: November 14 — Duke at Miami (FL) -> Duke wins: OUTCOME 76; Miami (FL) wins: OUTCOME 7
+NODE 407: November 14 — Duke at Miami (FL) -> Duke wins: OUTCOME 77; Miami (FL) wins: OUTCOME 7
+NODE 408: November 14 — Duke at Miami (FL) -> Duke wins: OUTCOME 78; Miami (FL) wins: OUTCOME 58
+NODE 409: November 14 — Duke at Miami (FL) -> Duke wins: OUTCOME 79; Miami (FL) wins: OUTCOME 59
+NODE 410: November 14 — Duke at Miami (FL) -> Duke wins: OUTCOME 80; Miami (FL) wins: OUTCOME 57
+NODE 411: November 14 — Duke at Miami (FL) -> Duke wins: OUTCOME 81; Miami (FL) wins: OUTCOME 4
+NODE 412: November 14 — Duke at Miami (FL) -> Duke wins: OUTCOME 82; Miami (FL) wins: OUTCOME 4
+NODE 413: November 14 — Duke at Miami (FL) -> Duke wins: OUTCOME 83; Miami (FL) wins: OUTCOME 9
+NODE 414: November 14 — Duke at Miami (FL) -> Duke wins: OUTCOME 84; Miami (FL) wins: OUTCOME 60
+NODE 415: November 14 — Duke at Miami (FL) -> Duke wins: OUTCOME 85; Miami (FL) wins: OUTCOME 4
+NODE 416: November 14 — Duke at Miami (FL) -> Duke wins: OUTCOME 86; Miami (FL) wins: OUTCOME 4
+NODE 417: November 14 — Duke at Miami (FL) -> Duke wins: OUTCOME 87; Miami (FL) wins: OUTCOME 9
+NODE 418: November 14 — Duke at Miami (FL) -> Duke wins: OUTCOME 88; Miami (FL) wins: OUTCOME 6
+NODE 419: November 14 — Duke at Miami (FL) -> Duke wins: OUTCOME 89; Miami (FL) wins: OUTCOME 2
+NODE 420: November 14 — Duke at Miami (FL) -> Duke wins: OUTCOME 90; Miami (FL) wins: OUTCOME 8
+NODE 421: November 14 — Duke at Miami (FL) -> Duke wins: OUTCOME 91; Miami (FL) wins: OUTCOME 1
+NODE 422: November 14 — Duke at Miami (FL) -> Duke wins: OUTCOME 92; Miami (FL) wins: OUTCOME 4
+NODE 423: November 14 — Duke at Miami (FL) -> Duke wins: OUTCOME 93; Miami (FL) wins: OUTCOME 4
+NODE 424: November 14 — Duke at Miami (FL) -> Duke wins: OUTCOME 94; Miami (FL) wins: OUTCOME 0
+NODE 425: November 14 — Duke at Miami (FL) -> Duke wins: OUTCOME 95; Miami (FL) wins: OUTCOME 11
+NODE 426: November 14 — Duke at Miami (FL) -> Duke wins: OUTCOME 96; Miami (FL) wins: OUTCOME 4
+NODE 427: November 14 — Duke at Miami (FL) -> Duke wins: OUTCOME 97; Miami (FL) wins: OUTCOME 9
+NODE 428: November 14 — Duke at Miami (FL) -> Duke wins: NODE 214; Miami (FL) wins: NODE 213
+NODE 429: November 14 — Duke at Miami (FL) -> Duke wins: NODE 216; Miami (FL) wins: NODE 215
+NODE 430: November 14 — Duke at Miami (FL) -> Duke wins: NODE 218; Miami (FL) wins: NODE 217
+NODE 431: November 14 — Duke at Miami (FL) -> Duke wins: NODE 220; Miami (FL) wins: NODE 219
+NODE 432: November 14 — Duke at Miami (FL) -> Duke wins: NODE 221; Miami (FL) wins: NODE 217
+NODE 433: November 14 — Duke at Miami (FL) -> Duke wins: NODE 222; Miami (FL) wins: OUTCOME 2
+NODE 434: November 14 — Duke at Miami (FL) -> Duke wins: NODE 223; Miami (FL) wins: NODE 219
+NODE 435: November 14 — Duke at Miami (FL) -> Duke wins: NODE 224; Miami (FL) wins: OUTCOME 2
+NODE 436: November 14 — Duke at Miami (FL) -> Duke wins: NODE 225; Miami (FL) wins: NODE 213
+NODE 437: November 14 — Duke at Miami (FL) -> Duke wins: NODE 226; Miami (FL) wins: OUTCOME 2
+NODE 438: November 14 — Duke at Miami (FL) -> Duke wins: NODE 227; Miami (FL) wins: NODE 215
+NODE 439: November 14 — Duke at Miami (FL) -> Duke wins: NODE 228; Miami (FL) wins: OUTCOME 2
+NODE 440: November 14 — Duke at Miami (FL) -> Duke wins: NODE 229; Miami (FL) wins: OUTCOME 4
+NODE 441: November 14 — Duke at Miami (FL) -> Duke wins: NODE 230; Miami (FL) wins: NODE 217
+NODE 442: November 14 — Duke at Miami (FL) -> Duke wins: NODE 231; Miami (FL) wins: OUTCOME 2
+NODE 443: November 14 — Duke at Miami (FL) -> Duke wins: NODE 232; Miami (FL) wins: OUTCOME 4
+NODE 444: November 14 — Duke at Miami (FL) -> Duke wins: NODE 233; Miami (FL) wins: NODE 219
+NODE 445: November 14 — Duke at Miami (FL) -> Duke wins: NODE 234; Miami (FL) wins: OUTCOME 2
+NODE 446: November 14 — Duke at Miami (FL) -> Duke wins: NODE 235; Miami (FL) wins: OUTCOME 4
+NODE 447: November 14 — Duke at Miami (FL) -> Duke wins: NODE 236; Miami (FL) wins: NODE 213
+NODE 448: November 14 — Duke at Miami (FL) -> Duke wins: NODE 237; Miami (FL) wins: OUTCOME 4
+NODE 449: November 14 — Duke at Miami (FL) -> Duke wins: NODE 238; Miami (FL) wins: NODE 215
+NODE 450: November 14 — Duke at Miami (FL) -> Duke wins: NODE 239; Miami (FL) wins: OUTCOME 2
+NODE 451: November 14 — Duke at Miami (FL) -> Duke wins: NODE 240; Miami (FL) wins: OUTCOME 2
+NODE 452: November 14 — Duke at Miami (FL) -> Duke wins: NODE 222; Miami (FL) wins: OUTCOME 12
+NODE 453: November 14 — Duke at Miami (FL) -> Duke wins: NODE 241; Miami (FL) wins: OUTCOME 2
+NODE 454: November 14 — Duke at Miami (FL) -> Duke wins: NODE 224; Miami (FL) wins: OUTCOME 12
+NODE 455: November 14 — Duke at Miami (FL) -> Duke wins: NODE 242; Miami (FL) wins: OUTCOME 2
+NODE 456: November 14 — Duke at Miami (FL) -> Duke wins: NODE 226; Miami (FL) wins: OUTCOME 12
+NODE 457: November 14 — Duke at Miami (FL) -> Duke wins: NODE 243; Miami (FL) wins: OUTCOME 2
+NODE 458: November 14 — Duke at Miami (FL) -> Duke wins: NODE 228; Miami (FL) wins: OUTCOME 12
+NODE 459: November 14 — Duke at Miami (FL) -> Duke wins: NODE 244; Miami (FL) wins: OUTCOME 2
+NODE 460: November 14 — Duke at Miami (FL) -> Duke wins: NODE 231; Miami (FL) wins: OUTCOME 12
+NODE 461: November 14 — Duke at Miami (FL) -> Duke wins: NODE 245; Miami (FL) wins: OUTCOME 2
+NODE 462: November 14 — Duke at Miami (FL) -> Duke wins: NODE 234; Miami (FL) wins: OUTCOME 12
+NODE 463: November 14 — Duke at Miami (FL) -> Duke wins: NODE 246; Miami (FL) wins: OUTCOME 2
+NODE 464: November 14 — Duke at Miami (FL) -> Duke wins: NODE 247; Miami (FL) wins: OUTCOME 2
+NODE 465: November 14 — Duke at Miami (FL) -> Duke wins: NODE 239; Miami (FL) wins: OUTCOME 12
+NODE 466: November 14 — Duke at Miami (FL) -> Duke wins: OUTCOME 48; Miami (FL) wins: NODE 248
+NODE 467: November 14 — Duke at Miami (FL) -> Duke wins: OUTCOME 48; Miami (FL) wins: NODE 249
+NODE 468: November 14 — Duke at Miami (FL) -> Duke wins: OUTCOME 48; Miami (FL) wins: NODE 250
+NODE 469: November 14 — Duke at Miami (FL) -> Duke wins: OUTCOME 48; Miami (FL) wins: NODE 251
+NODE 470: November 14 — Duke at Miami (FL) -> Duke wins: NODE 248; Miami (FL) wins: NODE 252
+NODE 471: November 14 — Duke at Miami (FL) -> Duke wins: NODE 249; Miami (FL) wins: NODE 253
+NODE 472: November 14 — Duke at Miami (FL) -> Duke wins: NODE 250; Miami (FL) wins: NODE 254
+NODE 473: November 14 — Duke at Miami (FL) -> Duke wins: NODE 251; Miami (FL) wins: NODE 253
+NODE 474: November 14 — Duke at Miami (FL) -> Duke wins: OUTCOME 52; Miami (FL) wins: NODE 255
+NODE 475: November 14 — Duke at Miami (FL) -> Duke wins: OUTCOME 52; Miami (FL) wins: NODE 256
+NODE 476: November 14 — Duke at Miami (FL) -> Duke wins: OUTCOME 52; Miami (FL) wins: NODE 257
+NODE 477: November 14 — Duke at Miami (FL) -> Duke wins: OUTCOME 52; Miami (FL) wins: NODE 258
+NODE 478: November 14 — Duke at Miami (FL) -> Duke wins: OUTCOME 52; Miami (FL) wins: NODE 248
+NODE 479: November 14 — Duke at Miami (FL) -> Duke wins: OUTCOME 52; Miami (FL) wins: NODE 249
+NODE 480: November 14 — Duke at Miami (FL) -> Duke wins: OUTCOME 52; Miami (FL) wins: NODE 250
+NODE 481: November 14 — Duke at Miami (FL) -> Duke wins: OUTCOME 52; Miami (FL) wins: NODE 251
+NODE 482: November 14 — Duke at Miami (FL) -> Duke wins: NODE 255; Miami (FL) wins: NODE 252
+NODE 483: November 14 — Duke at Miami (FL) -> Duke wins: NODE 256; Miami (FL) wins: NODE 259
+NODE 484: November 14 — Duke at Miami (FL) -> Duke wins: NODE 257; Miami (FL) wins: NODE 260
+NODE 485: November 14 — Duke at Miami (FL) -> Duke wins: NODE 258; Miami (FL) wins: NODE 261
+NODE 486: November 14 — Duke at Miami (FL) -> Duke wins: OUTCOME 48; Miami (FL) wins: NODE 262
+NODE 487: November 14 — Duke at Miami (FL) -> Duke wins: OUTCOME 48; Miami (FL) wins: NODE 216
+NODE 488: November 14 — Duke at Miami (FL) -> Duke wins: NODE 262; Miami (FL) wins: NODE 213
+NODE 489: November 14 — Duke at Miami (FL) -> Duke wins: OUTCOME 52; Miami (FL) wins: NODE 218
+NODE 490: November 14 — Duke at Miami (FL) -> Duke wins: OUTCOME 52; Miami (FL) wins: NODE 220
+NODE 491: November 14 — Duke at Miami (FL) -> Duke wins: OUTCOME 52; Miami (FL) wins: NODE 262
+NODE 492: November 14 — Duke at Miami (FL) -> Duke wins: OUTCOME 52; Miami (FL) wins: NODE 216
+NODE 493: November 14 — Duke at Miami (FL) -> Duke wins: NODE 263; Miami (FL) wins: NODE 255
+NODE 494: November 14 — Duke at Miami (FL) -> Duke wins: NODE 264; Miami (FL) wins: NODE 256
+NODE 495: November 14 — Duke at Miami (FL) -> Duke wins: NODE 265; Miami (FL) wins: NODE 257
+NODE 496: November 14 — Duke at Miami (FL) -> Duke wins: NODE 266; Miami (FL) wins: NODE 258
+NODE 497: November 14 — Duke at Miami (FL) -> Duke wins: NODE 267; Miami (FL) wins: NODE 248
+NODE 498: November 14 — Duke at Miami (FL) -> Duke wins: NODE 268; Miami (FL) wins: NODE 250
+NODE 499: November 14 — Duke at Miami (FL) -> Duke wins: NODE 269; Miami (FL) wins: NODE 251
+NODE 500: November 14 — Duke at Miami (FL) -> Duke wins: NODE 270; Miami (FL) wins: OUTCOME 4
+NODE 501: November 14 — Duke at Miami (FL) -> Duke wins: NODE 271; Miami (FL) wins: OUTCOME 4
+NODE 502: November 14 — Duke at Miami (FL) -> Duke wins: NODE 272; Miami (FL) wins: NODE 252
+NODE 503: November 14 — Duke at Miami (FL) -> Duke wins: NODE 273; Miami (FL) wins: NODE 259
+NODE 504: November 14 — Duke at Miami (FL) -> Duke wins: NODE 274; Miami (FL) wins: OUTCOME 4
+NODE 505: November 14 — Duke at Miami (FL) -> Duke wins: NODE 275; Miami (FL) wins: OUTCOME 4
+NODE 506: November 14 — Duke at Miami (FL) -> Duke wins: NODE 276; Miami (FL) wins: NODE 260
+NODE 507: November 14 — Duke at Miami (FL) -> Duke wins: NODE 277; Miami (FL) wins: NODE 261
+NODE 508: November 14 — Duke at Miami (FL) -> Duke wins: NODE 278; Miami (FL) wins: OUTCOME 4
+NODE 509: November 14 — Duke at Miami (FL) -> Duke wins: NODE 279; Miami (FL) wins: OUTCOME 4
+NODE 510: November 14 — Duke at Miami (FL) -> Duke wins: NODE 280; Miami (FL) wins: NODE 252
+NODE 511: November 14 — Duke at Miami (FL) -> Duke wins: NODE 281; Miami (FL) wins: NODE 253
+NODE 512: November 14 — Duke at Miami (FL) -> Duke wins: NODE 282; Miami (FL) wins: OUTCOME 4
+NODE 513: November 14 — Duke at Miami (FL) -> Duke wins: NODE 283; Miami (FL) wins: OUTCOME 4
+NODE 514: November 14 — Duke at Miami (FL) -> Duke wins: NODE 284; Miami (FL) wins: NODE 254
+NODE 515: November 14 — Duke at Miami (FL) -> Duke wins: NODE 285; Miami (FL) wins: NODE 253
+NODE 516: November 14 — Duke at Miami (FL) -> Duke wins: NODE 286; Miami (FL) wins: NODE 218
+NODE 517: November 14 — Duke at Miami (FL) -> Duke wins: NODE 287; Miami (FL) wins: NODE 220
+NODE 518: November 14 — Duke at Miami (FL) -> Duke wins: NODE 288; Miami (FL) wins: NODE 262
+NODE 519: November 14 — Duke at Miami (FL) -> Duke wins: NODE 289; Miami (FL) wins: NODE 216
+NODE 520: November 14 — Duke at Miami (FL) -> Duke wins: NODE 290; Miami (FL) wins: OUTCOME 4
+NODE 521: November 14 — Duke at Miami (FL) -> Duke wins: NODE 291; Miami (FL) wins: NODE 217
+NODE 522: November 14 — Duke at Miami (FL) -> Duke wins: NODE 292; Miami (FL) wins: OUTCOME 4
+NODE 523: November 14 — Duke at Miami (FL) -> Duke wins: NODE 293; Miami (FL) wins: OUTCOME 4
+NODE 524: November 14 — Duke at Miami (FL) -> Duke wins: NODE 294; Miami (FL) wins: NODE 213
+NODE 525: November 14 — Duke at Miami (FL) -> Duke wins: NODE 295; Miami (FL) wins: OUTCOME 4
+NODE 526: November 14 — Duke at Miami (FL) -> Duke wins: NODE 296; Miami (FL) wins: NODE 215
+NODE 527: November 14 — Duke at Miami (FL) -> Duke wins: OUTCOME 179; Miami (FL) wins: OUTCOME 3
+NODE 528: November 14 — Duke at Miami (FL) -> Duke wins: OUTCOME 180; Miami (FL) wins: OUTCOME 38
+NODE 529: November 14 — Duke at Miami (FL) -> Duke wins: OUTCOME 181; Miami (FL) wins: OUTCOME 179
+NODE 530: November 14 — Duke at Miami (FL) -> Duke wins: OUTCOME 182; Miami (FL) wins: OUTCOME 38
+NODE 531: November 14 — Duke at Miami (FL) -> Duke wins: OUTCOME 183; Miami (FL) wins: OUTCOME 38
+NODE 532: November 14 — Duke at Miami (FL) -> Duke wins: OUTCOME 184; Miami (FL) wins: OUTCOME 38
+NODE 533: November 14 — Duke at Miami (FL) -> Duke wins: OUTCOME 185; Miami (FL) wins: OUTCOME 38
+NODE 534: November 14 — Duke at Miami (FL) -> Duke wins: OUTCOME 186; Miami (FL) wins: OUTCOME 38
+NODE 535: November 14 — Duke at Miami (FL) -> Duke wins: OUTCOME 187; Miami (FL) wins: OUTCOME 38
+NODE 536: November 14 — Duke at Miami (FL) -> Duke wins: OUTCOME 188; Miami (FL) wins: OUTCOME 38
+NODE 537: November 14 — Duke at Miami (FL) -> Duke wins: OUTCOME 189; Miami (FL) wins: OUTCOME 38
+NODE 538: November 14 — Duke at Miami (FL) -> Duke wins: OUTCOME 190; Miami (FL) wins: OUTCOME 38
+NODE 539: November 14 — Duke at Miami (FL) -> Duke wins: OUTCOME 39; Miami (FL) wins: OUTCOME 12
+NODE 540: November 14 — Duke at Miami (FL) -> Duke wins: OUTCOME 191; Miami (FL) wins: OUTCOME 28
+NODE 541: November 14 — Duke at Miami (FL) -> Duke wins: OUTCOME 40; Miami (FL) wins: OUTCOME 12
+NODE 542: November 14 — Duke at Miami (FL) -> Duke wins: OUTCOME 41; Miami (FL) wins: OUTCOME 12
+NODE 543: November 14 — Duke at Miami (FL) -> Duke wins: OUTCOME 42; Miami (FL) wins: OUTCOME 12
+NODE 544: November 14 — Duke at Miami (FL) -> Duke wins: OUTCOME 43; Miami (FL) wins: OUTCOME 12
+NODE 545: November 14 — Duke at Miami (FL) -> Duke wins: OUTCOME 44; Miami (FL) wins: OUTCOME 12
+NODE 546: November 14 — Duke at Miami (FL) -> Duke wins: OUTCOME 45; Miami (FL) wins: OUTCOME 12
+NODE 547: November 14 — Duke at Miami (FL) -> Duke wins: OUTCOME 46; Miami (FL) wins: OUTCOME 12
+NODE 548: November 14 — Duke at Miami (FL) -> Duke wins: OUTCOME 1; Miami (FL) wins: OUTCOME 2
+NODE 549: November 14 — Duke at Miami (FL) -> Duke wins: OUTCOME 48; Miami (FL) wins: OUTCOME 10
+NODE 550: November 14 — Duke at Miami (FL) -> Duke wins: OUTCOME 10; Miami (FL) wins: OUTCOME 2
+NODE 551: November 14 — Duke at Miami (FL) -> Duke wins: OUTCOME 52; Miami (FL) wins: OUTCOME 10
+NODE 552: November 14 — Duke at Miami (FL) -> Duke wins: OUTCOME 11; Miami (FL) wins: OUTCOME 192
+NODE 553: November 14 — Duke at Miami (FL) -> Duke wins: OUTCOME 193; Miami (FL) wins: OUTCOME 38
+NODE 554: November 14 — Duke at Miami (FL) -> Duke wins: OUTCOME 194; Miami (FL) wins: OUTCOME 179
+NODE 555: November 14 — Duke at Miami (FL) -> Duke wins: OUTCOME 195; Miami (FL) wins: OUTCOME 38
+NODE 556: November 14 — Duke at Miami (FL) -> Duke wins: OUTCOME 196; Miami (FL) wins: OUTCOME 38
+NODE 557: November 14 — Duke at Miami (FL) -> Duke wins: OUTCOME 18; Miami (FL) wins: OUTCOME 2
+NODE 558: November 14 — Duke at Miami (FL) -> Duke wins: OUTCOME 197; Miami (FL) wins: OUTCOME 10
+NODE 559: November 14 — Duke at Miami (FL) -> Duke wins: OUTCOME 198; Miami (FL) wins: OUTCOME 38
+NODE 560: November 14 — Duke at Miami (FL) -> Duke wins: OUTCOME 30; Miami (FL) wins: OUTCOME 192
+NODE 561: November 14 — Duke at Miami (FL) -> Duke wins: OUTCOME 199; Miami (FL) wins: OUTCOME 4
+NODE 562: November 14 — Duke at Miami (FL) -> Duke wins: OUTCOME 200; Miami (FL) wins: OUTCOME 38
+NODE 563: November 14 — Duke at Miami (FL) -> Duke wins: OUTCOME 201; Miami (FL) wins: OUTCOME 2
+NODE 564: November 14 — Duke at Miami (FL) -> Duke wins: NODE 297; Miami (FL) wins: OUTCOME 38
+NODE 565: November 14 — Duke at Miami (FL) -> Duke wins: NODE 298; Miami (FL) wins: OUTCOME 38
+NODE 566: November 14 — Duke at Miami (FL) -> Duke wins: NODE 299; Miami (FL) wins: OUTCOME 38
+NODE 567: November 14 — Duke at Miami (FL) -> Duke wins: NODE 300; Miami (FL) wins: OUTCOME 38
+NODE 568: November 14 — Duke at Miami (FL) -> Duke wins: NODE 301; Miami (FL) wins: OUTCOME 38
+NODE 569: November 14 — Duke at Miami (FL) -> Duke wins: NODE 302; Miami (FL) wins: OUTCOME 38
+NODE 570: November 14 — Duke at Miami (FL) -> Duke wins: NODE 303; Miami (FL) wins: OUTCOME 38
+NODE 571: November 14 — Duke at Miami (FL) -> Duke wins: NODE 240; Miami (FL) wins: OUTCOME 12
+NODE 572: November 14 — Duke at Miami (FL) -> Duke wins: NODE 241; Miami (FL) wins: OUTCOME 12
+NODE 573: November 14 — Duke at Miami (FL) -> Duke wins: NODE 242; Miami (FL) wins: OUTCOME 12
+NODE 574: November 14 — Duke at Miami (FL) -> Duke wins: NODE 243; Miami (FL) wins: OUTCOME 12
+NODE 575: November 14 — Duke at Miami (FL) -> Duke wins: NODE 244; Miami (FL) wins: OUTCOME 12
+NODE 576: November 14 — Duke at Miami (FL) -> Duke wins: NODE 245; Miami (FL) wins: OUTCOME 12
+NODE 577: November 14 — Duke at Miami (FL) -> Duke wins: NODE 246; Miami (FL) wins: OUTCOME 12
+NODE 578: November 14 — Duke at Miami (FL) -> Duke wins: NODE 247; Miami (FL) wins: OUTCOME 12
+NODE 579: November 14 — Duke at Miami (FL) -> Duke wins: OUTCOME 48; Miami (FL) wins: NODE 214
+NODE 580: November 14 — Duke at Miami (FL) -> Duke wins: NODE 214; Miami (FL) wins: NODE 304
+NODE 581: November 14 — Duke at Miami (FL) -> Duke wins: NODE 216; Miami (FL) wins: NODE 305
+NODE 582: November 14 — Duke at Miami (FL) -> Duke wins: OUTCOME 52; Miami (FL) wins: NODE 214
+NODE 583: November 14 — Duke at Miami (FL) -> Duke wins: NODE 218; Miami (FL) wins: NODE 306
+NODE 584: November 14 — Duke at Miami (FL) -> Duke wins: NODE 307; Miami (FL) wins: NODE 214
+NODE 585: November 14 — Duke at Miami (FL) -> Duke wins: NODE 308; Miami (FL) wins: OUTCOME 38
+NODE 586: November 14 — Duke at Miami (FL) -> Duke wins: NODE 221; Miami (FL) wins: NODE 306
+NODE 587: November 14 — Duke at Miami (FL) -> Duke wins: NODE 309; Miami (FL) wins: OUTCOME 38
+NODE 588: November 14 — Duke at Miami (FL) -> Duke wins: NODE 310; Miami (FL) wins: OUTCOME 4
+NODE 589: November 14 — Duke at Miami (FL) -> Duke wins: NODE 311; Miami (FL) wins: OUTCOME 38
+NODE 590: November 14 — Duke at Miami (FL) -> Duke wins: NODE 312; Miami (FL) wins: NODE 304
+NODE 591: November 14 — Duke at Miami (FL) -> Duke wins: NODE 313; Miami (FL) wins: OUTCOME 38
+NODE 592: November 14 — Duke at Miami (FL) -> Duke wins: NODE 227; Miami (FL) wins: NODE 305
+NODE 593: November 14 — Duke at Miami (FL) -> Duke wins: NODE 314; Miami (FL) wins: OUTCOME 38
+NODE 594: November 14 — Wake Forest at SMU -> Wake Forest wins: OUTCOME 2; SMU wins: NODE 315
+NODE 595: November 14 — Wake Forest at SMU -> Wake Forest wins: OUTCOME 2; SMU wins: OUTCOME 3
+NODE 596: November 14 — Wake Forest at SMU -> Wake Forest wins: OUTCOME 2; SMU wins: OUTCOME 4
+NODE 597: November 14 — Wake Forest at SMU -> Wake Forest wins: OUTCOME 2; SMU wins: OUTCOME 0
+NODE 598: November 14 — Wake Forest at SMU -> Wake Forest wins: OUTCOME 2; SMU wins: NODE 316
+NODE 599: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 318; SMU wins: NODE 317
+NODE 600: November 14 — Wake Forest at SMU -> Wake Forest wins: OUTCOME 2; SMU wins: OUTCOME 5
+NODE 601: November 14 — Wake Forest at SMU -> Wake Forest wins: OUTCOME 2; SMU wins: NODE 319
+NODE 602: November 14 — Wake Forest at SMU -> Wake Forest wins: OUTCOME 2; SMU wins: OUTCOME 9
+NODE 603: November 14 — Wake Forest at SMU -> Wake Forest wins: OUTCOME 2; SMU wins: NODE 320
+NODE 604: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 321; SMU wins: OUTCOME 2
+NODE 605: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 322; SMU wins: NODE 318
+NODE 606: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 324; SMU wins: NODE 323
+NODE 607: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 326; SMU wins: NODE 325
+NODE 608: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 328; SMU wins: NODE 327
+NODE 609: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 326; SMU wins: NODE 329
+NODE 610: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 331; SMU wins: NODE 330
+NODE 611: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 333; SMU wins: NODE 332
+NODE 612: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 326; SMU wins: NODE 334
+NODE 613: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 326; SMU wins: NODE 335
+NODE 614: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 331; SMU wins: NODE 336
+NODE 615: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 322; SMU wins: NODE 337
+NODE 616: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 326; SMU wins: NODE 338
+NODE 617: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 340; SMU wins: NODE 339
+NODE 618: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 342; SMU wins: NODE 341
+NODE 619: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 331; SMU wins: NODE 343
+NODE 620: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 345; SMU wins: NODE 344
+NODE 621: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 331; SMU wins: NODE 346
+NODE 622: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 321; SMU wins: NODE 347
+NODE 623: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 349; SMU wins: NODE 348
+NODE 624: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 350; SMU wins: NODE 326
+NODE 625: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 352; SMU wins: NODE 351
+NODE 626: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 353; SMU wins: NODE 331
+NODE 627: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 355; SMU wins: NODE 354
+NODE 628: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 357; SMU wins: NODE 356
+NODE 629: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 359; SMU wins: NODE 358
+NODE 630: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 361; SMU wins: NODE 360
+NODE 631: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 363; SMU wins: NODE 362
+NODE 632: November 14 — Wake Forest at SMU -> Wake Forest wins: OUTCOME 12; SMU wins: NODE 364
+NODE 633: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 366; SMU wins: NODE 365
+NODE 634: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 369; SMU wins: NODE 368
+NODE 635: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 371; SMU wins: NODE 370
+NODE 636: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 374; SMU wins: NODE 373
+NODE 637: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 376; SMU wins: NODE 375
+NODE 638: November 14 — Wake Forest at SMU -> Wake Forest wins: OUTCOME 48; SMU wins: NODE 377
+NODE 639: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 379; SMU wins: NODE 378
+NODE 640: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 381; SMU wins: NODE 380
+NODE 641: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 383; SMU wins: NODE 382
+NODE 642: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 385; SMU wins: NODE 384
+NODE 643: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 379; SMU wins: NODE 386
+NODE 644: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 369; SMU wins: NODE 367
+NODE 645: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 388; SMU wins: NODE 387
+NODE 646: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 389; SMU wins: NODE 372
+NODE 647: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 388; SMU wins: NODE 390
+NODE 648: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 379; SMU wins: NODE 377
+NODE 649: November 14 — Wake Forest at SMU -> Wake Forest wins: OUTCOME 2; SMU wins: NODE 378
+NODE 650: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 388; SMU wins: NODE 391
+NODE 651: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 388; SMU wins: NODE 382
+NODE 652: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 393; SMU wins: NODE 392
+NODE 653: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 396; SMU wins: NODE 395
+NODE 654: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 398; SMU wins: NODE 397
+NODE 655: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 400; SMU wins: NODE 399
+NODE 656: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 402; SMU wins: NODE 401
+NODE 657: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 404; SMU wins: NODE 403
+NODE 658: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 389; SMU wins: NODE 405
+NODE 659: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 407; SMU wins: NODE 406
+NODE 660: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 409; SMU wins: NODE 408
+NODE 661: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 383; SMU wins: NODE 410
+NODE 662: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 412; SMU wins: NODE 411
+NODE 663: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 414; SMU wins: NODE 413
+NODE 664: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 416; SMU wins: NODE 415
+NODE 665: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 388; SMU wins: NODE 417
+NODE 666: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 419; SMU wins: NODE 418
+NODE 667: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 420; SMU wins: NODE 394
+NODE 668: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 419; SMU wins: NODE 421
+NODE 669: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 331; SMU wins: NODE 422
+NODE 670: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 331; SMU wins: NODE 423
+NODE 671: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 328; SMU wins: NODE 424
+NODE 672: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 326; SMU wins: NODE 406
+NODE 673: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 419; SMU wins: NODE 425
+NODE 674: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 419; SMU wins: NODE 410
+NODE 675: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 331; SMU wins: NODE 426
+NODE 676: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 340; SMU wins: NODE 427
+NODE 677: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 331; SMU wins: NODE 415
+NODE 678: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 342; SMU wins: NODE 417
+NODE 679: November 14 — Wake Forest at SMU -> Wake Forest wins: OUTCOME 2; SMU wins: NODE 428
+NODE 680: November 14 — Wake Forest at SMU -> Wake Forest wins: OUTCOME 2; SMU wins: NODE 429
+NODE 681: November 14 — Wake Forest at SMU -> Wake Forest wins: OUTCOME 2; SMU wins: NODE 213
+NODE 682: November 14 — Wake Forest at SMU -> Wake Forest wins: OUTCOME 2; SMU wins: NODE 215
+NODE 683: November 14 — Wake Forest at SMU -> Wake Forest wins: OUTCOME 2; SMU wins: NODE 430
+NODE 684: November 14 — Wake Forest at SMU -> Wake Forest wins: OUTCOME 2; SMU wins: NODE 431
+NODE 685: November 14 — Wake Forest at SMU -> Wake Forest wins: OUTCOME 2; SMU wins: NODE 217
+NODE 686: November 14 — Wake Forest at SMU -> Wake Forest wins: OUTCOME 2; SMU wins: NODE 219
+NODE 687: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 433; SMU wins: NODE 432
+NODE 688: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 435; SMU wins: NODE 434
+NODE 689: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 437; SMU wins: NODE 436
+NODE 690: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 439; SMU wins: NODE 438
+NODE 691: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 331; SMU wins: NODE 440
+NODE 692: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 442; SMU wins: NODE 441
+NODE 693: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 331; SMU wins: NODE 443
+NODE 694: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 445; SMU wins: NODE 444
+NODE 695: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 331; SMU wins: NODE 446
+NODE 696: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 321; SMU wins: NODE 447
+NODE 697: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 331; SMU wins: NODE 448
+NODE 698: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 450; SMU wins: NODE 449
+NODE 699: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 452; SMU wins: NODE 451
+NODE 700: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 454; SMU wins: NODE 453
+NODE 701: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 456; SMU wins: NODE 455
+NODE 702: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 458; SMU wins: NODE 457
+NODE 703: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 460; SMU wins: NODE 459
+NODE 704: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 462; SMU wins: NODE 461
+NODE 705: November 14 — Wake Forest at SMU -> Wake Forest wins: OUTCOME 12; SMU wins: NODE 463
+NODE 706: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 465; SMU wins: NODE 464
+NODE 707: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 467; SMU wins: NODE 466
+NODE 708: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 469; SMU wins: NODE 468
+NODE 709: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 471; SMU wins: NODE 470
+NODE 710: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 473; SMU wins: NODE 472
+NODE 711: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 475; SMU wins: NODE 474
+NODE 712: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 477; SMU wins: NODE 476
+NODE 713: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 479; SMU wins: NODE 478
+NODE 714: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 481; SMU wins: NODE 480
+NODE 715: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 483; SMU wins: NODE 482
+NODE 716: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 485; SMU wins: NODE 484
+NODE 717: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 379; SMU wins: NODE 486
+NODE 718: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 379; SMU wins: NODE 487
+NODE 719: November 14 — Wake Forest at SMU -> Wake Forest wins: OUTCOME 2; SMU wins: NODE 488
+NODE 720: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 388; SMU wins: NODE 489
+NODE 721: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 388; SMU wins: NODE 490
+NODE 722: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 388; SMU wins: NODE 491
+NODE 723: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 388; SMU wins: NODE 492
+NODE 724: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 494; SMU wins: NODE 493
+NODE 725: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 496; SMU wins: NODE 495
+NODE 726: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 479; SMU wins: NODE 497
+NODE 727: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 499; SMU wins: NODE 498
+NODE 728: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 501; SMU wins: NODE 500
+NODE 729: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 503; SMU wins: NODE 502
+NODE 730: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 505; SMU wins: NODE 504
+NODE 731: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 507; SMU wins: NODE 506
+NODE 732: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 509; SMU wins: NODE 508
+NODE 733: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 511; SMU wins: NODE 510
+NODE 734: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 513; SMU wins: NODE 512
+NODE 735: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 515; SMU wins: NODE 514
+NODE 736: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 419; SMU wins: NODE 516
+NODE 737: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 419; SMU wins: NODE 517
+NODE 738: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 419; SMU wins: NODE 518
+NODE 739: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 419; SMU wins: NODE 519
+NODE 740: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 331; SMU wins: NODE 520
+NODE 741: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 433; SMU wins: NODE 521
+NODE 742: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 331; SMU wins: NODE 522
+NODE 743: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 331; SMU wins: NODE 523
+NODE 744: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 437; SMU wins: NODE 524
+NODE 745: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 331; SMU wins: NODE 525
+NODE 746: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 439; SMU wins: NODE 526
+NODE 747: November 14 — Wake Forest at SMU -> Wake Forest wins: OUTCOME 2; SMU wins: NODE 347
+NODE 748: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 318; SMU wins: NODE 527
+NODE 749: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 348; SMU wins: NODE 528
+NODE 750: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 326; SMU wins: NODE 529
+NODE 751: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 351; SMU wins: NODE 530
+NODE 752: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 331; SMU wins: NODE 531
+NODE 753: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 354; SMU wins: NODE 532
+NODE 754: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 356; SMU wins: NODE 533
+NODE 755: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 358; SMU wins: NODE 534
+NODE 756: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 360; SMU wins: NODE 535
+NODE 757: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 362; SMU wins: NODE 536
+NODE 758: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 364; SMU wins: NODE 537
+NODE 759: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 539; SMU wins: NODE 538
+NODE 760: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 350; SMU wins: NODE 540
+NODE 761: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 541; SMU wins: NODE 538
+NODE 762: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 353; SMU wins: NODE 538
+NODE 763: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 542; SMU wins: NODE 538
+NODE 764: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 543; SMU wins: NODE 538
+NODE 765: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 544; SMU wins: NODE 538
+NODE 766: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 545; SMU wins: NODE 538
+NODE 767: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 546; SMU wins: NODE 538
+NODE 768: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 547; SMU wins: NODE 538
+NODE 769: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 386; SMU wins: NODE 378
+NODE 770: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 367; SMU wins: NODE 368
+NODE 771: November 14 — Wake Forest at SMU -> Wake Forest wins: OUTCOME 4; SMU wins: OUTCOME 9
+NODE 772: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 548; SMU wins: OUTCOME 9
+NODE 773: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 387; SMU wins: NODE 417
+NODE 774: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 372; SMU wins: NODE 405
+NODE 775: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 390; SMU wins: NODE 417
+NODE 776: November 14 — Wake Forest at SMU -> Wake Forest wins: OUTCOME 4; SMU wins: NODE 347
+NODE 777: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 316; SMU wins: NODE 347
+NODE 778: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 317; SMU wins: NODE 527
+NODE 779: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 548; SMU wins: NODE 347
+NODE 780: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 549; SMU wins: NODE 378
+NODE 781: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 550; SMU wins: OUTCOME 9
+NODE 782: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 391; SMU wins: NODE 417
+NODE 783: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 551; SMU wins: NODE 417
+NODE 784: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 552; SMU wins: NODE 347
+NODE 785: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 550; SMU wins: NODE 347
+NODE 786: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 418; SMU wins: NODE 553
+NODE 787: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 394; SMU wins: NODE 554
+NODE 788: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 421; SMU wins: NODE 553
+NODE 789: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 422; SMU wins: NODE 531
+NODE 790: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 323; SMU wins: NODE 555
+NODE 791: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 334; SMU wins: NODE 529
+NODE 792: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 325; SMU wins: NODE 529
+NODE 793: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 423; SMU wins: NODE 531
+NODE 794: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 557; SMU wins: NODE 556
+NODE 795: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 329; SMU wins: NODE 529
+NODE 796: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 425; SMU wins: NODE 553
+NODE 797: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 558; SMU wins: NODE 553
+NODE 798: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 426; SMU wins: NODE 531
+NODE 799: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 560; SMU wins: NODE 559
+NODE 800: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 561; SMU wins: NODE 531
+NODE 801: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 563; SMU wins: NODE 562
+NODE 802: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 419; SMU wins: NODE 553
+NODE 803: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 420; SMU wins: NODE 554
+NODE 804: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 360; SMU wins: NODE 562
+NODE 805: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 451; SMU wins: NODE 564
+NODE 806: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 453; SMU wins: NODE 565
+NODE 807: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 455; SMU wins: NODE 566
+NODE 808: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 457; SMU wins: NODE 567
+NODE 809: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 459; SMU wins: NODE 568
+NODE 810: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 461; SMU wins: NODE 569
+NODE 811: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 463; SMU wins: NODE 537
+NODE 812: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 464; SMU wins: NODE 570
+NODE 813: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 571; SMU wins: NODE 538
+NODE 814: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 572; SMU wins: NODE 538
+NODE 815: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 573; SMU wins: NODE 538
+NODE 816: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 574; SMU wins: NODE 538
+NODE 817: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 575; SMU wins: NODE 538
+NODE 818: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 576; SMU wins: NODE 538
+NODE 819: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 577; SMU wins: NODE 538
+NODE 820: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 578; SMU wins: NODE 538
+NODE 821: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 579; SMU wins: NODE 378
+NODE 822: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 487; SMU wins: NODE 378
+NODE 823: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 580; SMU wins: OUTCOME 9
+NODE 824: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 581; SMU wins: OUTCOME 9
+NODE 825: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 489; SMU wins: NODE 417
+NODE 826: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 490; SMU wins: NODE 417
+NODE 827: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 582; SMU wins: NODE 417
+NODE 828: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 492; SMU wins: NODE 417
+NODE 829: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 583; SMU wins: NODE 347
+NODE 830: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 431; SMU wins: NODE 347
+NODE 831: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 580; SMU wins: NODE 347
+NODE 832: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 581; SMU wins: NODE 347
+NODE 833: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 516; SMU wins: NODE 553
+NODE 834: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 517; SMU wins: NODE 553
+NODE 835: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 584; SMU wins: NODE 553
+NODE 836: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 519; SMU wins: NODE 553
+NODE 837: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 520; SMU wins: NODE 531
+NODE 838: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 586; SMU wins: NODE 585
+NODE 839: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 522; SMU wins: NODE 531
+NODE 840: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 434; SMU wins: NODE 587
+NODE 841: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 588; SMU wins: NODE 531
+NODE 842: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 590; SMU wins: NODE 589
+NODE 843: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 525; SMU wins: NODE 531
+NODE 844: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 592; SMU wins: NODE 591
+NODE 845: November 14 — Wake Forest at SMU -> Wake Forest wins: NODE 455; SMU wins: NODE 593
+NODE 846: November 14 — Georgia Tech at Clemson -> Georgia Tech wins: NODE 597; Clemson wins: NODE 596
+NODE 847: November 14 — Georgia Tech at Clemson -> Georgia Tech wins: NODE 600; Clemson wins: NODE 596
+NODE 848: November 14 — Georgia Tech at Clemson -> Georgia Tech wins: NODE 602; Clemson wins: NODE 596
+NODE 849: November 14 — Georgia Tech at Clemson -> Georgia Tech wins: NODE 611; Clemson wins: NODE 610
+NODE 850: November 14 — Georgia Tech at Clemson -> Georgia Tech wins: NODE 613; Clemson wins: NODE 612
+NODE 851: November 14 — Georgia Tech at Clemson -> Georgia Tech wins: NODE 615; Clemson wins: NODE 614
+NODE 852: November 14 — Georgia Tech at Clemson -> Georgia Tech wins: NODE 616; Clemson wins: NODE 612
+NODE 853: November 14 — Georgia Tech at Clemson -> Georgia Tech wins: NODE 620; Clemson wins: NODE 619
+NODE 854: November 14 — Georgia Tech at Clemson -> Georgia Tech wins: NODE 622; Clemson wins: NODE 621
+NODE 855: November 14 — Georgia Tech at Clemson -> Georgia Tech wins: NODE 627; Clemson wins: NODE 626
+NODE 856: November 14 — Georgia Tech at Clemson -> Georgia Tech wins: NODE 628; Clemson wins: NODE 626
+NODE 857: November 14 — Georgia Tech at Clemson -> Georgia Tech wins: NODE 631; Clemson wins: NODE 626
+NODE 858: November 14 — Georgia Tech at Clemson -> Georgia Tech wins: NODE 632; Clemson wins: NODE 626
+NODE 859: November 14 — Georgia Tech at Clemson -> Georgia Tech wins: NODE 634; Clemson wins: OUTCOME 4
+NODE 860: November 14 — Georgia Tech at Clemson -> Georgia Tech wins: NODE 637; Clemson wins: OUTCOME 4
+NODE 861: November 14 — Georgia Tech at Clemson -> Georgia Tech wins: NODE 639; Clemson wins: OUTCOME 4
+NODE 862: November 14 — Georgia Tech at Clemson -> Georgia Tech wins: NODE 642; Clemson wins: OUTCOME 4
+NODE 863: November 14 — Georgia Tech at Clemson -> Georgia Tech wins: NODE 594; Clemson wins: NODE 596
+NODE 864: November 14 — Georgia Tech at Clemson -> Georgia Tech wins: NODE 598; Clemson wins: NODE 596
+NODE 865: November 14 — Georgia Tech at Clemson -> Georgia Tech wins: NODE 649; Clemson wins: NODE 596
+NODE 866: November 14 — Georgia Tech at Clemson -> Georgia Tech wins: NODE 603; Clemson wins: NODE 596
+NODE 867: November 14 — Georgia Tech at Clemson -> Georgia Tech wins: NODE 655; Clemson wins: NODE 654
+NODE 868: November 14 — Georgia Tech at Clemson -> Georgia Tech wins: NODE 656; Clemson wins: NODE 334
+NODE 869: November 14 — Georgia Tech at Clemson -> Georgia Tech wins: NODE 658; Clemson wins: NODE 657
+NODE 870: November 14 — Georgia Tech at Clemson -> Georgia Tech wins: NODE 659; Clemson wins: NODE 334
+NODE 871: November 14 — Georgia Tech at Clemson -> Georgia Tech wins: NODE 663; Clemson wins: NODE 662
+NODE 872: November 14 — Georgia Tech at Clemson -> Georgia Tech wins: NODE 665; Clemson wins: NODE 664
+NODE 873: November 14 — Georgia Tech at Clemson -> Georgia Tech wins: NODE 606; Clemson wins: NODE 669
+NODE 874: November 14 — Georgia Tech at Clemson -> Georgia Tech wins: NODE 607; Clemson wins: NODE 612
+NODE 875: November 14 — Georgia Tech at Clemson -> Georgia Tech wins: NODE 671; Clemson wins: NODE 670
+NODE 876: November 14 — Georgia Tech at Clemson -> Georgia Tech wins: NODE 672; Clemson wins: NODE 612
+NODE 877: November 14 — Georgia Tech at Clemson -> Georgia Tech wins: NODE 676; Clemson wins: NODE 675
+NODE 878: November 14 — Georgia Tech at Clemson -> Georgia Tech wins: NODE 678; Clemson wins: NODE 677
+NODE 879: November 14 — Georgia Tech at Clemson -> Georgia Tech wins: NODE 681; Clemson wins: NODE 596
+NODE 880: November 14 — Georgia Tech at Clemson -> Georgia Tech wins: NODE 682; Clemson wins: NODE 596
+NODE 881: November 14 — Georgia Tech at Clemson -> Georgia Tech wins: NODE 685; Clemson wins: NODE 596
+NODE 882: November 14 — Georgia Tech at Clemson -> Georgia Tech wins: NODE 686; Clemson wins: NODE 596
+NODE 883: November 14 — Georgia Tech at Clemson -> Georgia Tech wins: NODE 692; Clemson wins: NODE 691
+NODE 884: November 14 — Georgia Tech at Clemson -> Georgia Tech wins: NODE 694; Clemson wins: NODE 693
+NODE 885: November 14 — Georgia Tech at Clemson -> Georgia Tech wins: NODE 696; Clemson wins: NODE 695
+NODE 886: November 14 — Georgia Tech at Clemson -> Georgia Tech wins: NODE 698; Clemson wins: NODE 697
+NODE 887: November 14 — Georgia Tech at Clemson -> Georgia Tech wins: NODE 703; Clemson wins: NODE 626
+NODE 888: November 14 — Georgia Tech at Clemson -> Georgia Tech wins: NODE 704; Clemson wins: NODE 626
+NODE 889: November 14 — Georgia Tech at Clemson -> Georgia Tech wins: NODE 705; Clemson wins: NODE 626
+NODE 890: November 14 — Georgia Tech at Clemson -> Georgia Tech wins: NODE 706; Clemson wins: NODE 626
+NODE 891: November 14 — Georgia Tech at Clemson -> Georgia Tech wins: NODE 709; Clemson wins: OUTCOME 4
+NODE 892: November 14 — Georgia Tech at Clemson -> Georgia Tech wins: NODE 710; Clemson wins: OUTCOME 4
+NODE 893: November 14 — Georgia Tech at Clemson -> Georgia Tech wins: NODE 715; Clemson wins: OUTCOME 4
+NODE 894: November 14 — Georgia Tech at Clemson -> Georgia Tech wins: NODE 716; Clemson wins: OUTCOME 4
+NODE 895: November 14 — Georgia Tech at Clemson -> Georgia Tech wins: NODE 719; Clemson wins: NODE 596
+NODE 896: November 14 — Georgia Tech at Clemson -> Georgia Tech wins: NODE 680; Clemson wins: NODE 596
+NODE 897: November 14 — Georgia Tech at Clemson -> Georgia Tech wins: NODE 683; Clemson wins: NODE 596
+NODE 898: November 14 — Georgia Tech at Clemson -> Georgia Tech wins: NODE 684; Clemson wins: NODE 596
+NODE 899: November 14 — Georgia Tech at Clemson -> Georgia Tech wins: NODE 729; Clemson wins: NODE 728
+NODE 900: November 14 — Georgia Tech at Clemson -> Georgia Tech wins: NODE 731; Clemson wins: NODE 730
+NODE 901: November 14 — Georgia Tech at Clemson -> Georgia Tech wins: NODE 733; Clemson wins: NODE 732
+NODE 902: November 14 — Georgia Tech at Clemson -> Georgia Tech wins: NODE 735; Clemson wins: NODE 734
+NODE 903: November 14 — Georgia Tech at Clemson -> Georgia Tech wins: NODE 741; Clemson wins: NODE 740
+NODE 904: November 14 — Georgia Tech at Clemson -> Georgia Tech wins: NODE 688; Clemson wins: NODE 742
+NODE 905: November 14 — Georgia Tech at Clemson -> Georgia Tech wins: NODE 744; Clemson wins: NODE 743
+NODE 906: November 14 — Georgia Tech at Clemson -> Georgia Tech wins: NODE 746; Clemson wins: NODE 745
+NODE 907: November 14 — Georgia Tech at Clemson -> Georgia Tech wins: NODE 753; Clemson wins: NODE 752
+NODE 908: November 14 — Georgia Tech at Clemson -> Georgia Tech wins: NODE 754; Clemson wins: NODE 752
+NODE 909: November 14 — Georgia Tech at Clemson -> Georgia Tech wins: NODE 757; Clemson wins: NODE 752
+NODE 910: November 14 — Georgia Tech at Clemson -> Georgia Tech wins: NODE 758; Clemson wins: NODE 752
+NODE 911: November 14 — Georgia Tech at Clemson -> Georgia Tech wins: NODE 763; Clemson wins: NODE 762
+NODE 912: November 14 — Georgia Tech at Clemson -> Georgia Tech wins: NODE 764; Clemson wins: NODE 762
+NODE 913: November 14 — Georgia Tech at Clemson -> Georgia Tech wins: NODE 767; Clemson wins: NODE 762
+NODE 914: November 14 — Georgia Tech at Clemson -> Georgia Tech wins: NODE 768; Clemson wins: NODE 762
+NODE 915: November 14 — Georgia Tech at Clemson -> Georgia Tech wins: NODE 772; Clemson wins: NODE 771
+NODE 916: November 14 — Georgia Tech at Clemson -> Georgia Tech wins: NODE 777; Clemson wins: NODE 776
+NODE 917: November 14 — Georgia Tech at Clemson -> Georgia Tech wins: NODE 779; Clemson wins: NODE 776
+NODE 918: November 14 — Georgia Tech at Clemson -> Georgia Tech wins: NODE 781; Clemson wins: NODE 771
+NODE 919: November 14 — Georgia Tech at Clemson -> Georgia Tech wins: NODE 784; Clemson wins: NODE 776
+NODE 920: November 14 — Georgia Tech at Clemson -> Georgia Tech wins: NODE 785; Clemson wins: NODE 776
+NODE 921: November 14 — Georgia Tech at Clemson -> Georgia Tech wins: NODE 790; Clemson wins: NODE 789
+NODE 922: November 14 — Georgia Tech at Clemson -> Georgia Tech wins: NODE 792; Clemson wins: NODE 791
+NODE 923: November 14 — Georgia Tech at Clemson -> Georgia Tech wins: NODE 794; Clemson wins: NODE 793
+NODE 924: November 14 — Georgia Tech at Clemson -> Georgia Tech wins: NODE 795; Clemson wins: NODE 791
+NODE 925: November 14 — Georgia Tech at Clemson -> Georgia Tech wins: NODE 799; Clemson wins: NODE 798
+NODE 926: November 14 — Georgia Tech at Clemson -> Georgia Tech wins: NODE 801; Clemson wins: NODE 800
+NODE 927: November 14 — Georgia Tech at Clemson -> Georgia Tech wins: NODE 749; Clemson wins: NODE 752
+NODE 928: November 14 — Georgia Tech at Clemson -> Georgia Tech wins: NODE 751; Clemson wins: NODE 752
+NODE 929: November 14 — Georgia Tech at Clemson -> Georgia Tech wins: NODE 755; Clemson wins: NODE 752
+NODE 930: November 14 — Georgia Tech at Clemson -> Georgia Tech wins: NODE 804; Clemson wins: NODE 752
+NODE 931: November 14 — Georgia Tech at Clemson -> Georgia Tech wins: NODE 809; Clemson wins: NODE 752
+NODE 932: November 14 — Georgia Tech at Clemson -> Georgia Tech wins: NODE 810; Clemson wins: NODE 752
+NODE 933: November 14 — Georgia Tech at Clemson -> Georgia Tech wins: NODE 811; Clemson wins: NODE 752
+NODE 934: November 14 — Georgia Tech at Clemson -> Georgia Tech wins: NODE 812; Clemson wins: NODE 752
+NODE 935: November 14 — Georgia Tech at Clemson -> Georgia Tech wins: NODE 817; Clemson wins: NODE 762
+NODE 936: November 14 — Georgia Tech at Clemson -> Georgia Tech wins: NODE 818; Clemson wins: NODE 762
+NODE 937: November 14 — Georgia Tech at Clemson -> Georgia Tech wins: NODE 819; Clemson wins: NODE 762
+NODE 938: November 14 — Georgia Tech at Clemson -> Georgia Tech wins: NODE 820; Clemson wins: NODE 762
+NODE 939: November 14 — Georgia Tech at Clemson -> Georgia Tech wins: NODE 823; Clemson wins: NODE 771
+NODE 940: November 14 — Georgia Tech at Clemson -> Georgia Tech wins: NODE 824; Clemson wins: NODE 771
+NODE 941: November 14 — Georgia Tech at Clemson -> Georgia Tech wins: NODE 829; Clemson wins: NODE 776
+NODE 942: November 14 — Georgia Tech at Clemson -> Georgia Tech wins: NODE 830; Clemson wins: NODE 776
+NODE 943: November 14 — Georgia Tech at Clemson -> Georgia Tech wins: NODE 831; Clemson wins: NODE 776
+NODE 944: November 14 — Georgia Tech at Clemson -> Georgia Tech wins: NODE 832; Clemson wins: NODE 776
+NODE 945: November 14 — Georgia Tech at Clemson -> Georgia Tech wins: NODE 838; Clemson wins: NODE 837
+NODE 946: November 14 — Georgia Tech at Clemson -> Georgia Tech wins: NODE 840; Clemson wins: NODE 839
+NODE 947: November 14 — Georgia Tech at Clemson -> Georgia Tech wins: NODE 842; Clemson wins: NODE 841
+NODE 948: November 14 — Georgia Tech at Clemson -> Georgia Tech wins: NODE 844; Clemson wins: NODE 843
+NODE 949: November 14 — Georgia Tech at Clemson -> Georgia Tech wins: NODE 805; Clemson wins: NODE 752
+NODE 950: November 14 — Georgia Tech at Clemson -> Georgia Tech wins: NODE 806; Clemson wins: NODE 752
+NODE 951: November 14 — Georgia Tech at Clemson -> Georgia Tech wins: NODE 845; Clemson wins: NODE 752
+NODE 952: November 14 — Georgia Tech at Clemson -> Georgia Tech wins: NODE 808; Clemson wins: NODE 752
+NODE 953: November 14 — Louisville at North Carolina -> Louisville wins: NODE 595; North Carolina wins: NODE 594
+NODE 954: November 14 — Louisville at North Carolina -> Louisville wins: NODE 595; North Carolina wins: NODE 846
+NODE 955: November 14 — Louisville at North Carolina -> Louisville wins: NODE 599; North Carolina wins: NODE 598
+NODE 956: November 14 — Louisville at North Carolina -> Louisville wins: NODE 599; North Carolina wins: NODE 594
+NODE 957: November 14 — Louisville at North Carolina -> Louisville wins: NODE 599; North Carolina wins: NODE 847
+NODE 958: November 14 — Louisville at North Carolina -> Louisville wins: NODE 599; North Carolina wins: NODE 846
+NODE 959: November 14 — Louisville at North Carolina -> Louisville wins: NODE 594; North Carolina wins: NODE 601
+NODE 960: November 14 — Louisville at North Carolina -> Louisville wins: NODE 846; North Carolina wins: NODE 848
+NODE 961: November 14 — Louisville at North Carolina -> Louisville wins: NODE 598; North Carolina wins: NODE 603
+NODE 962: November 14 — Louisville at North Carolina -> Louisville wins: NODE 847; North Carolina wins: NODE 848
+NODE 963: November 14 — Louisville at North Carolina -> Louisville wins: NODE 605; North Carolina wins: NODE 604
+NODE 964: November 14 — Louisville at North Carolina -> Louisville wins: NODE 607; North Carolina wins: NODE 606
+NODE 965: November 14 — Louisville at North Carolina -> Louisville wins: NODE 609; North Carolina wins: NODE 608
+NODE 966: November 14 — Louisville at North Carolina -> Louisville wins: NODE 850; North Carolina wins: NODE 849
+NODE 967: November 14 — Louisville at North Carolina -> Louisville wins: NODE 852; North Carolina wins: NODE 851
+NODE 968: November 14 — Louisville at North Carolina -> Louisville wins: NODE 606; North Carolina wins: NODE 617
+NODE 969: November 14 — Louisville at North Carolina -> Louisville wins: NODE 608; North Carolina wins: NODE 618
+NODE 970: November 14 — Louisville at North Carolina -> Louisville wins: NODE 849; North Carolina wins: NODE 853
+NODE 971: November 14 — Louisville at North Carolina -> Louisville wins: NODE 851; North Carolina wins: NODE 854
+NODE 972: November 14 — Louisville at North Carolina -> Louisville wins: NODE 624; North Carolina wins: NODE 623
+NODE 973: November 14 — Louisville at North Carolina -> Louisville wins: NODE 624; North Carolina wins: NODE 625
+NODE 974: November 14 — Louisville at North Carolina -> Louisville wins: NODE 624; North Carolina wins: NODE 855
+NODE 975: November 14 — Louisville at North Carolina -> Louisville wins: NODE 624; North Carolina wins: NODE 856
+NODE 976: November 14 — Louisville at North Carolina -> Louisville wins: NODE 623; North Carolina wins: NODE 629
+NODE 977: November 14 — Louisville at North Carolina -> Louisville wins: NODE 625; North Carolina wins: NODE 630
+NODE 978: November 14 — Louisville at North Carolina -> Louisville wins: NODE 855; North Carolina wins: NODE 857
+NODE 979: November 14 — Louisville at North Carolina -> Louisville wins: NODE 856; North Carolina wins: NODE 858
+NODE 980: November 14 — Louisville at North Carolina -> Louisville wins: NODE 367; North Carolina wins: NODE 633
+NODE 981: November 14 — Louisville at North Carolina -> Louisville wins: OUTCOME 3; North Carolina wins: NODE 859
+NODE 982: November 14 — Louisville at North Carolina -> Louisville wins: NODE 372; North Carolina wins: NODE 635
+NODE 983: November 14 — Louisville at North Carolina -> Louisville wins: NODE 372; North Carolina wins: NODE 636
+NODE 984: November 14 — Louisville at North Carolina -> Louisville wins: NODE 317; North Carolina wins: NODE 860
+NODE 985: November 14 — Louisville at North Carolina -> Louisville wins: NODE 317; North Carolina wins: NODE 859
+NODE 986: November 14 — Louisville at North Carolina -> Louisville wins: NODE 633; North Carolina wins: NODE 638
+NODE 987: November 14 — Louisville at North Carolina -> Louisville wins: NODE 859; North Carolina wins: NODE 861
+NODE 988: November 14 — Louisville at North Carolina -> Louisville wins: NODE 635; North Carolina wins: NODE 640
+NODE 989: November 14 — Louisville at North Carolina -> Louisville wins: NODE 636; North Carolina wins: NODE 641
+NODE 990: November 14 — Louisville at North Carolina -> Louisville wins: NODE 860; North Carolina wins: NODE 862
+NODE 991: November 14 — Louisville at North Carolina -> Louisville wins: NODE 644; North Carolina wins: NODE 643
+NODE 992: November 14 — Louisville at North Carolina -> Louisville wins: NODE 595; North Carolina wins: NODE 863
+NODE 993: November 14 — Louisville at North Carolina -> Louisville wins: NODE 646; North Carolina wins: NODE 645
+NODE 994: November 14 — Louisville at North Carolina -> Louisville wins: NODE 646; North Carolina wins: NODE 647
+NODE 995: November 14 — Louisville at North Carolina -> Louisville wins: NODE 599; North Carolina wins: NODE 864
+NODE 996: November 14 — Louisville at North Carolina -> Louisville wins: NODE 599; North Carolina wins: NODE 863
+NODE 997: November 14 — Louisville at North Carolina -> Louisville wins: NODE 643; North Carolina wins: NODE 648
+NODE 998: November 14 — Louisville at North Carolina -> Louisville wins: NODE 863; North Carolina wins: NODE 865
+NODE 999: November 14 — Louisville at North Carolina -> Louisville wins: NODE 645; North Carolina wins: NODE 650
+NODE 1000: November 14 — Louisville at North Carolina -> Louisville wins: NODE 647; North Carolina wins: NODE 651
+NODE 1001: November 14 — Louisville at North Carolina -> Louisville wins: NODE 864; North Carolina wins: NODE 866
+NODE 1002: November 14 — Louisville at North Carolina -> Louisville wins: NODE 394; North Carolina wins: NODE 652
+NODE 1003: November 14 — Louisville at North Carolina -> Louisville wins: NODE 394; North Carolina wins: NODE 653
+NODE 1004: November 14 — Louisville at North Carolina -> Louisville wins: NODE 868; North Carolina wins: NODE 867
+NODE 1005: November 14 — Louisville at North Carolina -> Louisville wins: NODE 870; North Carolina wins: NODE 869
+NODE 1006: November 14 — Louisville at North Carolina -> Louisville wins: NODE 652; North Carolina wins: NODE 660
+NODE 1007: November 14 — Louisville at North Carolina -> Louisville wins: NODE 653; North Carolina wins: NODE 661
+NODE 1008: November 14 — Louisville at North Carolina -> Louisville wins: NODE 867; North Carolina wins: NODE 871
+NODE 1009: November 14 — Louisville at North Carolina -> Louisville wins: NODE 869; North Carolina wins: NODE 872
+NODE 1010: November 14 — Louisville at North Carolina -> Louisville wins: NODE 667; North Carolina wins: NODE 666
+NODE 1011: November 14 — Louisville at North Carolina -> Louisville wins: NODE 667; North Carolina wins: NODE 668
+NODE 1012: November 14 — Louisville at North Carolina -> Louisville wins: NODE 874; North Carolina wins: NODE 873
+NODE 1013: November 14 — Louisville at North Carolina -> Louisville wins: NODE 876; North Carolina wins: NODE 875
+NODE 1014: November 14 — Louisville at North Carolina -> Louisville wins: NODE 666; North Carolina wins: NODE 673
+NODE 1015: November 14 — Louisville at North Carolina -> Louisville wins: NODE 668; North Carolina wins: NODE 674
+NODE 1016: November 14 — Louisville at North Carolina -> Louisville wins: NODE 873; North Carolina wins: NODE 877
+NODE 1017: November 14 — Louisville at North Carolina -> Louisville wins: NODE 875; North Carolina wins: NODE 878
+NODE 1018: November 14 — Louisville at North Carolina -> Louisville wins: NODE 680; North Carolina wins: NODE 679
+NODE 1019: November 14 — Louisville at North Carolina -> Louisville wins: NODE 880; North Carolina wins: NODE 879
+NODE 1020: November 14 — Louisville at North Carolina -> Louisville wins: NODE 684; North Carolina wins: NODE 683
+NODE 1021: November 14 — Louisville at North Carolina -> Louisville wins: NODE 882; North Carolina wins: NODE 881
+NODE 1022: November 14 — Louisville at North Carolina -> Louisville wins: NODE 688; North Carolina wins: NODE 687
+NODE 1023: November 14 — Louisville at North Carolina -> Louisville wins: NODE 690; North Carolina wins: NODE 689
+NODE 1024: November 14 — Louisville at North Carolina -> Louisville wins: NODE 884; North Carolina wins: NODE 883
+NODE 1025: November 14 — Louisville at North Carolina -> Louisville wins: NODE 886; North Carolina wins: NODE 885
+NODE 1026: November 14 — Louisville at North Carolina -> Louisville wins: NODE 700; North Carolina wins: NODE 699
+NODE 1027: November 14 — Louisville at North Carolina -> Louisville wins: NODE 702; North Carolina wins: NODE 701
+NODE 1028: November 14 — Louisville at North Carolina -> Louisville wins: NODE 888; North Carolina wins: NODE 887
+NODE 1029: November 14 — Louisville at North Carolina -> Louisville wins: NODE 890; North Carolina wins: NODE 889
+NODE 1030: November 14 — Louisville at North Carolina -> Louisville wins: NODE 708; North Carolina wins: NODE 707
+NODE 1031: November 14 — Louisville at North Carolina -> Louisville wins: NODE 892; North Carolina wins: NODE 891
+NODE 1032: November 14 — Louisville at North Carolina -> Louisville wins: NODE 712; North Carolina wins: NODE 711
+NODE 1033: November 14 — Louisville at North Carolina -> Louisville wins: NODE 714; North Carolina wins: NODE 713
+NODE 1034: November 14 — Louisville at North Carolina -> Louisville wins: NODE 894; North Carolina wins: NODE 893
+NODE 1035: November 14 — Louisville at North Carolina -> Louisville wins: NODE 718; North Carolina wins: NODE 717
+NODE 1036: November 14 — Louisville at North Carolina -> Louisville wins: NODE 896; North Carolina wins: NODE 895
+NODE 1037: November 14 — Louisville at North Carolina -> Louisville wins: NODE 721; North Carolina wins: NODE 720
+NODE 1038: November 14 — Louisville at North Carolina -> Louisville wins: NODE 723; North Carolina wins: NODE 722
+NODE 1039: November 14 — Louisville at North Carolina -> Louisville wins: NODE 898; North Carolina wins: NODE 897
+NODE 1040: November 14 — Louisville at North Carolina -> Louisville wins: NODE 725; North Carolina wins: NODE 724
+NODE 1041: November 14 — Louisville at North Carolina -> Louisville wins: NODE 727; North Carolina wins: NODE 726
+NODE 1042: November 14 — Louisville at North Carolina -> Louisville wins: NODE 900; North Carolina wins: NODE 899
+NODE 1043: November 14 — Louisville at North Carolina -> Louisville wins: NODE 902; North Carolina wins: NODE 901
+NODE 1044: November 14 — Louisville at North Carolina -> Louisville wins: NODE 737; North Carolina wins: NODE 736
+NODE 1045: November 14 — Louisville at North Carolina -> Louisville wins: NODE 739; North Carolina wins: NODE 738
+NODE 1046: November 14 — Louisville at North Carolina -> Louisville wins: NODE 904; North Carolina wins: NODE 903
+NODE 1047: November 14 — Louisville at North Carolina -> Louisville wins: NODE 906; North Carolina wins: NODE 905
+NODE 1048: November 14 — Louisville at North Carolina -> Louisville wins: NODE 595; North Carolina wins: NODE 602
+NODE 1049: November 14 — Louisville at North Carolina -> Louisville wins: NODE 748; North Carolina wins: NODE 747
+NODE 1050: November 14 — Louisville at North Carolina -> Louisville wins: NODE 597; North Carolina wins: NODE 602
+NODE 1051: November 14 — Louisville at North Carolina -> Louisville wins: NODE 615; North Carolina wins: NODE 622
+NODE 1052: November 14 — Louisville at North Carolina -> Louisville wins: NODE 750; North Carolina wins: NODE 749
+NODE 1053: November 14 — Louisville at North Carolina -> Louisville wins: NODE 750; North Carolina wins: NODE 751
+NODE 1054: November 14 — Louisville at North Carolina -> Louisville wins: NODE 750; North Carolina wins: NODE 907
+NODE 1055: November 14 — Louisville at North Carolina -> Louisville wins: NODE 750; North Carolina wins: NODE 908
+NODE 1056: November 14 — Louisville at North Carolina -> Louisville wins: NODE 749; North Carolina wins: NODE 755
+NODE 1057: November 14 — Louisville at North Carolina -> Louisville wins: NODE 751; North Carolina wins: NODE 756
+NODE 1058: November 14 — Louisville at North Carolina -> Louisville wins: NODE 907; North Carolina wins: NODE 909
+NODE 1059: November 14 — Louisville at North Carolina -> Louisville wins: NODE 908; North Carolina wins: NODE 910
+NODE 1060: November 14 — Louisville at North Carolina -> Louisville wins: NODE 760; North Carolina wins: NODE 759
+NODE 1061: November 14 — Louisville at North Carolina -> Louisville wins: NODE 760; North Carolina wins: NODE 761
+NODE 1062: November 14 — Louisville at North Carolina -> Louisville wins: NODE 760; North Carolina wins: NODE 911
+NODE 1063: November 14 — Louisville at North Carolina -> Louisville wins: NODE 760; North Carolina wins: NODE 912
+NODE 1064: November 14 — Louisville at North Carolina -> Louisville wins: NODE 759; North Carolina wins: NODE 765
+NODE 1065: November 14 — Louisville at North Carolina -> Louisville wins: NODE 761; North Carolina wins: NODE 766
+NODE 1066: November 14 — Louisville at North Carolina -> Louisville wins: NODE 911; North Carolina wins: NODE 913
+NODE 1067: November 14 — Louisville at North Carolina -> Louisville wins: NODE 912; North Carolina wins: NODE 914
+NODE 1068: November 14 — Louisville at North Carolina -> Louisville wins: NODE 770; North Carolina wins: NODE 769
+NODE 1069: November 14 — Louisville at North Carolina -> Louisville wins: OUTCOME 3; North Carolina wins: NODE 915
+NODE 1070: November 14 — Louisville at North Carolina -> Louisville wins: NODE 774; North Carolina wins: NODE 773
+NODE 1071: November 14 — Louisville at North Carolina -> Louisville wins: NODE 774; North Carolina wins: NODE 775
+NODE 1072: November 14 — Louisville at North Carolina -> Louisville wins: NODE 778; North Carolina wins: NODE 916
+NODE 1073: November 14 — Louisville at North Carolina -> Louisville wins: NODE 778; North Carolina wins: NODE 917
+NODE 1074: November 14 — Louisville at North Carolina -> Louisville wins: NODE 769; North Carolina wins: NODE 780
+NODE 1075: November 14 — Louisville at North Carolina -> Louisville wins: NODE 915; North Carolina wins: NODE 918
+NODE 1076: November 14 — Louisville at North Carolina -> Louisville wins: NODE 773; North Carolina wins: NODE 782
+NODE 1077: November 14 — Louisville at North Carolina -> Louisville wins: NODE 775; North Carolina wins: NODE 783
+NODE 1078: November 14 — Louisville at North Carolina -> Louisville wins: NODE 916; North Carolina wins: NODE 919
+NODE 1079: November 14 — Louisville at North Carolina -> Louisville wins: NODE 917; North Carolina wins: NODE 920
+NODE 1080: November 14 — Louisville at North Carolina -> Louisville wins: NODE 634; North Carolina wins: NODE 639
+NODE 1081: November 14 — Louisville at North Carolina -> Louisville wins: NODE 658; North Carolina wins: NODE 665
+NODE 1082: November 14 — Louisville at North Carolina -> Louisville wins: NODE 787; North Carolina wins: NODE 786
+NODE 1083: November 14 — Louisville at North Carolina -> Louisville wins: NODE 787; North Carolina wins: NODE 788
+NODE 1084: November 14 — Louisville at North Carolina -> Louisville wins: NODE 922; North Carolina wins: NODE 921
+NODE 1085: November 14 — Louisville at North Carolina -> Louisville wins: NODE 924; North Carolina wins: NODE 923
+NODE 1086: November 14 — Louisville at North Carolina -> Louisville wins: NODE 786; North Carolina wins: NODE 796
+NODE 1087: November 14 — Louisville at North Carolina -> Louisville wins: NODE 788; North Carolina wins: NODE 797
+NODE 1088: November 14 — Louisville at North Carolina -> Louisville wins: NODE 921; North Carolina wins: NODE 925
+NODE 1089: November 14 — Louisville at North Carolina -> Louisville wins: NODE 923; North Carolina wins: NODE 926
+NODE 1090: November 14 — Louisville at North Carolina -> Louisville wins: NODE 803; North Carolina wins: NODE 802
+NODE 1091: November 14 — Louisville at North Carolina -> Louisville wins: NODE 750; North Carolina wins: NODE 927
+NODE 1092: November 14 — Louisville at North Carolina -> Louisville wins: NODE 750; North Carolina wins: NODE 928
+NODE 1093: November 14 — Louisville at North Carolina -> Louisville wins: NODE 927; North Carolina wins: NODE 929
+NODE 1094: November 14 — Louisville at North Carolina -> Louisville wins: NODE 928; North Carolina wins: NODE 930
+NODE 1095: November 14 — Louisville at North Carolina -> Louisville wins: NODE 806; North Carolina wins: NODE 805
+NODE 1096: November 14 — Louisville at North Carolina -> Louisville wins: NODE 808; North Carolina wins: NODE 807
+NODE 1097: November 14 — Louisville at North Carolina -> Louisville wins: NODE 932; North Carolina wins: NODE 931
+NODE 1098: November 14 — Louisville at North Carolina -> Louisville wins: NODE 934; North Carolina wins: NODE 933
+NODE 1099: November 14 — Louisville at North Carolina -> Louisville wins: NODE 814; North Carolina wins: NODE 813
+NODE 1100: November 14 — Louisville at North Carolina -> Louisville wins: NODE 816; North Carolina wins: NODE 815
+NODE 1101: November 14 — Louisville at North Carolina -> Louisville wins: NODE 936; North Carolina wins: NODE 935
+NODE 1102: November 14 — Louisville at North Carolina -> Louisville wins: NODE 938; North Carolina wins: NODE 937
+NODE 1103: November 14 — Louisville at North Carolina -> Louisville wins: NODE 822; North Carolina wins: NODE 821
+NODE 1104: November 14 — Louisville at North Carolina -> Louisville wins: NODE 940; North Carolina wins: NODE 939
+NODE 1105: November 14 — Louisville at North Carolina -> Louisville wins: NODE 826; North Carolina wins: NODE 825
+NODE 1106: November 14 — Louisville at North Carolina -> Louisville wins: NODE 828; North Carolina wins: NODE 827
+NODE 1107: November 14 — Louisville at North Carolina -> Louisville wins: NODE 942; North Carolina wins: NODE 941
+NODE 1108: November 14 — Louisville at North Carolina -> Louisville wins: NODE 944; North Carolina wins: NODE 943
+NODE 1109: November 14 — Louisville at North Carolina -> Louisville wins: NODE 834; North Carolina wins: NODE 833
+NODE 1110: November 14 — Louisville at North Carolina -> Louisville wins: NODE 836; North Carolina wins: NODE 835
+NODE 1111: November 14 — Louisville at North Carolina -> Louisville wins: NODE 946; North Carolina wins: NODE 945
+NODE 1112: November 14 — Louisville at North Carolina -> Louisville wins: NODE 948; North Carolina wins: NODE 947
+NODE 1113: November 14 — Louisville at North Carolina -> Louisville wins: NODE 950; North Carolina wins: NODE 949
+NODE 1114: November 14 — Louisville at North Carolina -> Louisville wins: NODE 952; North Carolina wins: NODE 951
+NODE 1115: November 14 — Stanford at Virginia Tech -> Stanford wins: NODE 956; Virginia Tech wins: NODE 955
+NODE 1116: November 14 — Stanford at Virginia Tech -> Stanford wins: NODE 958; Virginia Tech wins: NODE 957
+NODE 1117: November 14 — Stanford at Virginia Tech -> Stanford wins: NODE 959; Virginia Tech wins: NODE 961
+NODE 1118: November 14 — Stanford at Virginia Tech -> Stanford wins: NODE 960; Virginia Tech wins: NODE 962
+NODE 1119: November 14 — Stanford at Virginia Tech -> Stanford wins: NODE 965; Virginia Tech wins: NODE 964
+NODE 1120: November 14 — Stanford at Virginia Tech -> Stanford wins: NODE 967; Virginia Tech wins: NODE 966
+NODE 1121: November 14 — Stanford at Virginia Tech -> Stanford wins: NODE 969; Virginia Tech wins: NODE 968
+NODE 1122: November 14 — Stanford at Virginia Tech -> Stanford wins: NODE 971; Virginia Tech wins: NODE 970
+NODE 1123: November 14 — Stanford at Virginia Tech -> Stanford wins: NODE 973; Virginia Tech wins: NODE 972
+NODE 1124: November 14 — Stanford at Virginia Tech -> Stanford wins: NODE 975; Virginia Tech wins: NODE 974
+NODE 1125: November 14 — Stanford at Virginia Tech -> Stanford wins: NODE 977; Virginia Tech wins: NODE 976
+NODE 1126: November 14 — Stanford at Virginia Tech -> Stanford wins: NODE 979; Virginia Tech wins: NODE 978
+NODE 1127: November 14 — Stanford at Virginia Tech -> Stanford wins: NODE 983; Virginia Tech wins: NODE 982
+NODE 1128: November 14 — Stanford at Virginia Tech -> Stanford wins: NODE 985; Virginia Tech wins: NODE 984
+NODE 1129: November 14 — Stanford at Virginia Tech -> Stanford wins: NODE 989; Virginia Tech wins: NODE 988
+NODE 1130: November 14 — Stanford at Virginia Tech -> Stanford wins: NODE 987; Virginia Tech wins: NODE 990
+NODE 1131: November 14 — Stanford at Virginia Tech -> Stanford wins: NODE 994; Virginia Tech wins: NODE 993
+NODE 1132: November 14 — Stanford at Virginia Tech -> Stanford wins: NODE 996; Virginia Tech wins: NODE 995
+NODE 1133: November 14 — Stanford at Virginia Tech -> Stanford wins: NODE 1000; Virginia Tech wins: NODE 999
+NODE 1134: November 14 — Stanford at Virginia Tech -> Stanford wins: NODE 998; Virginia Tech wins: NODE 1001
+NODE 1135: November 14 — Stanford at Virginia Tech -> Stanford wins: NODE 1003; Virginia Tech wins: NODE 1002
+NODE 1136: November 14 — Stanford at Virginia Tech -> Stanford wins: NODE 1005; Virginia Tech wins: NODE 1004
+NODE 1137: November 14 — Stanford at Virginia Tech -> Stanford wins: NODE 1007; Virginia Tech wins: NODE 1006
+NODE 1138: November 14 — Stanford at Virginia Tech -> Stanford wins: NODE 1009; Virginia Tech wins: NODE 1008
+NODE 1139: November 14 — Stanford at Virginia Tech -> Stanford wins: NODE 1011; Virginia Tech wins: NODE 1010
+NODE 1140: November 14 — Stanford at Virginia Tech -> Stanford wins: NODE 1013; Virginia Tech wins: NODE 1012
+NODE 1141: November 14 — Stanford at Virginia Tech -> Stanford wins: NODE 1015; Virginia Tech wins: NODE 1014
+NODE 1142: November 14 — Stanford at Virginia Tech -> Stanford wins: NODE 1017; Virginia Tech wins: NODE 1016
+NODE 1143: November 14 — Stanford at Virginia Tech -> Stanford wins: NODE 1018; Virginia Tech wins: NODE 1020
+NODE 1144: November 14 — Stanford at Virginia Tech -> Stanford wins: NODE 1019; Virginia Tech wins: NODE 1021
+NODE 1145: November 14 — Stanford at Virginia Tech -> Stanford wins: NODE 1023; Virginia Tech wins: NODE 1022
+NODE 1146: November 14 — Stanford at Virginia Tech -> Stanford wins: NODE 1025; Virginia Tech wins: NODE 1024
+NODE 1147: November 14 — Stanford at Virginia Tech -> Stanford wins: NODE 1027; Virginia Tech wins: NODE 1026
+NODE 1148: November 14 — Stanford at Virginia Tech -> Stanford wins: NODE 1029; Virginia Tech wins: NODE 1028
+NODE 1149: November 14 — Stanford at Virginia Tech -> Stanford wins: NODE 1033; Virginia Tech wins: NODE 1032
+NODE 1150: November 14 — Stanford at Virginia Tech -> Stanford wins: NODE 1031; Virginia Tech wins: NODE 1034
+NODE 1151: November 14 — Stanford at Virginia Tech -> Stanford wins: NODE 1038; Virginia Tech wins: NODE 1037
+NODE 1152: November 14 — Stanford at Virginia Tech -> Stanford wins: NODE 1036; Virginia Tech wins: NODE 1039
+NODE 1153: November 14 — Stanford at Virginia Tech -> Stanford wins: NODE 1041; Virginia Tech wins: NODE 1040
+NODE 1154: November 14 — Stanford at Virginia Tech -> Stanford wins: NODE 1043; Virginia Tech wins: NODE 1042
+NODE 1155: November 14 — Stanford at Virginia Tech -> Stanford wins: NODE 1045; Virginia Tech wins: NODE 1044
+NODE 1156: November 14 — Stanford at Virginia Tech -> Stanford wins: NODE 1047; Virginia Tech wins: NODE 1046
+NODE 1157: November 14 — Stanford at Virginia Tech -> Stanford wins: NODE 1053; Virginia Tech wins: NODE 1052
+NODE 1158: November 14 — Stanford at Virginia Tech -> Stanford wins: NODE 1055; Virginia Tech wins: NODE 1054
+NODE 1159: November 14 — Stanford at Virginia Tech -> Stanford wins: NODE 1057; Virginia Tech wins: NODE 1056
+NODE 1160: November 14 — Stanford at Virginia Tech -> Stanford wins: NODE 1059; Virginia Tech wins: NODE 1058
+NODE 1161: November 14 — Stanford at Virginia Tech -> Stanford wins: NODE 1061; Virginia Tech wins: NODE 1060
+NODE 1162: November 14 — Stanford at Virginia Tech -> Stanford wins: NODE 1063; Virginia Tech wins: NODE 1062
+NODE 1163: November 14 — Stanford at Virginia Tech -> Stanford wins: NODE 1065; Virginia Tech wins: NODE 1064
+NODE 1164: November 14 — Stanford at Virginia Tech -> Stanford wins: NODE 1067; Virginia Tech wins: NODE 1066
+NODE 1165: November 14 — Stanford at Virginia Tech -> Stanford wins: NODE 1071; Virginia Tech wins: NODE 1070
+NODE 1166: November 14 — Stanford at Virginia Tech -> Stanford wins: NODE 1073; Virginia Tech wins: NODE 1072
+NODE 1167: November 14 — Stanford at Virginia Tech -> Stanford wins: NODE 1077; Virginia Tech wins: NODE 1076
+NODE 1168: November 14 — Stanford at Virginia Tech -> Stanford wins: NODE 1079; Virginia Tech wins: NODE 1078
+NODE 1169: November 14 — Stanford at Virginia Tech -> Stanford wins: NODE 1083; Virginia Tech wins: NODE 1082
+NODE 1170: November 14 — Stanford at Virginia Tech -> Stanford wins: NODE 1085; Virginia Tech wins: NODE 1084
+NODE 1171: November 14 — Stanford at Virginia Tech -> Stanford wins: NODE 1087; Virginia Tech wins: NODE 1086
+NODE 1172: November 14 — Stanford at Virginia Tech -> Stanford wins: NODE 1089; Virginia Tech wins: NODE 1088
+NODE 1173: November 14 — Stanford at Virginia Tech -> Stanford wins: NODE 1092; Virginia Tech wins: NODE 1091
+NODE 1174: November 14 — Stanford at Virginia Tech -> Stanford wins: NODE 1094; Virginia Tech wins: NODE 1093
+NODE 1175: November 14 — Stanford at Virginia Tech -> Stanford wins: NODE 1096; Virginia Tech wins: NODE 1095
+NODE 1176: November 14 — Stanford at Virginia Tech -> Stanford wins: NODE 1098; Virginia Tech wins: NODE 1097
+NODE 1177: November 14 — Stanford at Virginia Tech -> Stanford wins: NODE 1100; Virginia Tech wins: NODE 1099
+NODE 1178: November 14 — Stanford at Virginia Tech -> Stanford wins: NODE 1102; Virginia Tech wins: NODE 1101
+NODE 1179: November 14 — Stanford at Virginia Tech -> Stanford wins: NODE 1106; Virginia Tech wins: NODE 1105
+NODE 1180: November 14 — Stanford at Virginia Tech -> Stanford wins: NODE 1108; Virginia Tech wins: NODE 1107
+NODE 1181: November 14 — Stanford at Virginia Tech -> Stanford wins: NODE 1110; Virginia Tech wins: NODE 1109
+NODE 1182: November 14 — Stanford at Virginia Tech -> Stanford wins: NODE 1112; Virginia Tech wins: NODE 1111
+NODE 1183: November 14 — Stanford at Virginia Tech -> Stanford wins: NODE 1114; Virginia Tech wins: NODE 1113
+NODE 1184: November 20 — Clemson at Duke -> Clemson wins: NODE 954; Duke wins: NODE 953
+NODE 1185: November 20 — Clemson at Duke -> Clemson wins: NODE 1116; Duke wins: NODE 1115
+NODE 1186: November 20 — Clemson at Duke -> Clemson wins: NODE 960; Duke wins: NODE 959
+NODE 1187: November 20 — Clemson at Duke -> Clemson wins: NODE 1118; Duke wins: NODE 1117
+NODE 1188: November 20 — Clemson at Duke -> Clemson wins: NODE 958; Duke wins: NODE 956
+NODE 1189: November 20 — Clemson at Duke -> Clemson wins: NODE 1120; Duke wins: NODE 1119
+NODE 1190: November 20 — Clemson at Duke -> Clemson wins: NODE 1122; Duke wins: NODE 1121
+NODE 1191: November 20 — Clemson at Duke -> Clemson wins: NODE 1124; Duke wins: NODE 1123
+NODE 1192: November 20 — Clemson at Duke -> Clemson wins: NODE 1126; Duke wins: NODE 1125
+NODE 1193: November 20 — Clemson at Duke -> Clemson wins: NODE 981; Duke wins: NODE 980
+NODE 1194: November 20 — Clemson at Duke -> Clemson wins: NODE 1128; Duke wins: NODE 1127
+NODE 1195: November 20 — Clemson at Duke -> Clemson wins: NODE 987; Duke wins: NODE 986
+NODE 1196: November 20 — Clemson at Duke -> Clemson wins: NODE 1130; Duke wins: NODE 1129
+NODE 1197: November 20 — Clemson at Duke -> Clemson wins: NODE 992; Duke wins: NODE 991
+NODE 1198: November 20 — Clemson at Duke -> Clemson wins: NODE 1132; Duke wins: NODE 1131
+NODE 1199: November 20 — Clemson at Duke -> Clemson wins: NODE 998; Duke wins: NODE 997
+NODE 1200: November 20 — Clemson at Duke -> Clemson wins: NODE 1134; Duke wins: NODE 1133
+NODE 1201: November 20 — Clemson at Duke -> Clemson wins: NODE 985; Duke wins: NODE 983
+NODE 1202: November 20 — Clemson at Duke -> Clemson wins: NODE 1136; Duke wins: NODE 1135
+NODE 1203: November 20 — Clemson at Duke -> Clemson wins: NODE 987; Duke wins: NODE 989
+NODE 1204: November 20 — Clemson at Duke -> Clemson wins: NODE 1138; Duke wins: NODE 1137
+NODE 1205: November 20 — Clemson at Duke -> Clemson wins: NODE 996; Duke wins: NODE 994
+NODE 1206: November 20 — Clemson at Duke -> Clemson wins: NODE 1140; Duke wins: NODE 1139
+NODE 1207: November 20 — Clemson at Duke -> Clemson wins: NODE 998; Duke wins: NODE 1000
+NODE 1208: November 20 — Clemson at Duke -> Clemson wins: NODE 1142; Duke wins: NODE 1141
+NODE 1209: November 20 — Clemson at Duke -> Clemson wins: NODE 1019; Duke wins: NODE 1018
+NODE 1210: November 20 — Clemson at Duke -> Clemson wins: NODE 1144; Duke wins: NODE 1143
+NODE 1211: November 20 — Clemson at Duke -> Clemson wins: NODE 1146; Duke wins: NODE 1145
+NODE 1212: November 20 — Clemson at Duke -> Clemson wins: NODE 1148; Duke wins: NODE 1147
+NODE 1213: November 20 — Clemson at Duke -> Clemson wins: NODE 1031; Duke wins: NODE 1030
+NODE 1214: November 20 — Clemson at Duke -> Clemson wins: NODE 1150; Duke wins: NODE 1149
+NODE 1215: November 20 — Clemson at Duke -> Clemson wins: NODE 1036; Duke wins: NODE 1035
+NODE 1216: November 20 — Clemson at Duke -> Clemson wins: NODE 1152; Duke wins: NODE 1151
+NODE 1217: November 20 — Clemson at Duke -> Clemson wins: NODE 1031; Duke wins: NODE 1033
+NODE 1218: November 20 — Clemson at Duke -> Clemson wins: NODE 1154; Duke wins: NODE 1153
+NODE 1219: November 20 — Clemson at Duke -> Clemson wins: NODE 1036; Duke wins: NODE 1038
+NODE 1220: November 20 — Clemson at Duke -> Clemson wins: NODE 1156; Duke wins: NODE 1155
+NODE 1221: November 20 — Clemson at Duke -> Clemson wins: NODE 1158; Duke wins: NODE 1157
+NODE 1222: November 20 — Clemson at Duke -> Clemson wins: NODE 1160; Duke wins: NODE 1159
+NODE 1223: November 20 — Clemson at Duke -> Clemson wins: NODE 1162; Duke wins: NODE 1161
+NODE 1224: November 20 — Clemson at Duke -> Clemson wins: NODE 1164; Duke wins: NODE 1163
+NODE 1225: November 20 — Clemson at Duke -> Clemson wins: NODE 1069; Duke wins: NODE 1068
+NODE 1226: November 20 — Clemson at Duke -> Clemson wins: NODE 1166; Duke wins: NODE 1165
+NODE 1227: November 20 — Clemson at Duke -> Clemson wins: NODE 1075; Duke wins: NODE 1074
+NODE 1228: November 20 — Clemson at Duke -> Clemson wins: NODE 1168; Duke wins: NODE 1167
+NODE 1229: November 20 — Clemson at Duke -> Clemson wins: NODE 1048; Duke wins: NODE 1080
+NODE 1230: November 20 — Clemson at Duke -> Clemson wins: NODE 1049; Duke wins: NODE 1081
+NODE 1231: November 20 — Clemson at Duke -> Clemson wins: NODE 602; Duke wins: NODE 639
+NODE 1232: November 20 — Clemson at Duke -> Clemson wins: NODE 747; Duke wins: NODE 665
+NODE 1233: November 20 — Clemson at Duke -> Clemson wins: NODE 1073; Duke wins: NODE 1071
+NODE 1234: November 20 — Clemson at Duke -> Clemson wins: NODE 1170; Duke wins: NODE 1169
+NODE 1235: November 20 — Clemson at Duke -> Clemson wins: NODE 1079; Duke wins: NODE 1077
+NODE 1236: November 20 — Clemson at Duke -> Clemson wins: NODE 1172; Duke wins: NODE 1171
+NODE 1237: November 20 — Clemson at Duke -> Clemson wins: NODE 1173; Duke wins: NODE 1090
+NODE 1238: November 20 — Clemson at Duke -> Clemson wins: NODE 1174; Duke wins: NODE 802
+NODE 1239: November 20 — Clemson at Duke -> Clemson wins: NODE 1176; Duke wins: NODE 1175
+NODE 1240: November 20 — Clemson at Duke -> Clemson wins: NODE 1178; Duke wins: NODE 1177
+NODE 1241: November 20 — Clemson at Duke -> Clemson wins: NODE 1104; Duke wins: NODE 1103
+NODE 1242: November 20 — Clemson at Duke -> Clemson wins: NODE 1180; Duke wins: NODE 1179
+NODE 1243: November 20 — Clemson at Duke -> Clemson wins: NODE 1108; Duke wins: NODE 1106
+NODE 1244: November 20 — Clemson at Duke -> Clemson wins: NODE 1182; Duke wins: NODE 1181
+NODE 1245: November 20 — Clemson at Duke -> Clemson wins: NODE 1183; Duke wins: NODE 802
+NODE 1246: November 20 — Clemson at Duke -> Clemson wins: NODE 967; Duke wins: NODE 965
+NODE 1247: November 20 — Clemson at Duke -> Clemson wins: NODE 971; Duke wins: NODE 969
+NODE 1248: November 20 — Clemson at Duke -> Clemson wins: NODE 975; Duke wins: NODE 973
+NODE 1249: November 20 — Clemson at Duke -> Clemson wins: NODE 979; Duke wins: NODE 977
+NODE 1250: November 20 — Clemson at Duke -> Clemson wins: NODE 1005; Duke wins: NODE 1003
+NODE 1251: November 20 — Clemson at Duke -> Clemson wins: NODE 1009; Duke wins: NODE 1007
+NODE 1252: November 20 — Clemson at Duke -> Clemson wins: NODE 1013; Duke wins: NODE 1011
+NODE 1253: November 20 — Clemson at Duke -> Clemson wins: NODE 1017; Duke wins: NODE 1015
+NODE 1254: November 20 — Clemson at Duke -> Clemson wins: NODE 1025; Duke wins: NODE 1023
+NODE 1255: November 20 — Clemson at Duke -> Clemson wins: NODE 1029; Duke wins: NODE 1027
+NODE 1256: November 20 — Clemson at Duke -> Clemson wins: NODE 1043; Duke wins: NODE 1041
+NODE 1257: November 20 — Clemson at Duke -> Clemson wins: NODE 1047; Duke wins: NODE 1045
+NODE 1258: November 20 — Clemson at Duke -> Clemson wins: NODE 1055; Duke wins: NODE 1053
+NODE 1259: November 20 — Clemson at Duke -> Clemson wins: NODE 1059; Duke wins: NODE 1057
+NODE 1260: November 20 — Clemson at Duke -> Clemson wins: NODE 1063; Duke wins: NODE 1061
+NODE 1261: November 20 — Clemson at Duke -> Clemson wins: NODE 1067; Duke wins: NODE 1065
+NODE 1262: November 20 — Clemson at Duke -> Clemson wins: NODE 1085; Duke wins: NODE 1083
+NODE 1263: November 20 — Clemson at Duke -> Clemson wins: NODE 1089; Duke wins: NODE 1087
+NODE 1264: November 20 — Clemson at Duke -> Clemson wins: NODE 1092; Duke wins: NODE 1090
+NODE 1265: November 20 — Clemson at Duke -> Clemson wins: NODE 1094; Duke wins: NODE 802
+NODE 1266: November 20 — Clemson at Duke -> Clemson wins: NODE 1098; Duke wins: NODE 1096
+NODE 1267: November 20 — Clemson at Duke -> Clemson wins: NODE 1102; Duke wins: NODE 1100
+NODE 1268: November 20 — Clemson at Duke -> Clemson wins: NODE 1112; Duke wins: NODE 1110
+NODE 1269: November 20 — Clemson at Duke -> Clemson wins: NODE 1114; Duke wins: NODE 802
+NODE 1270: November 21 — Virginia Tech at Miami (FL) -> Virginia Tech wins: NODE 1185; Miami (FL) wins: NODE 1184
+NODE 1271: November 21 — Virginia Tech at Miami (FL) -> Virginia Tech wins: NODE 1187; Miami (FL) wins: NODE 1186
+NODE 1272: November 21 — Virginia Tech at Miami (FL) -> Virginia Tech wins: NODE 963; Miami (FL) wins: OUTCOME 2
+NODE 1273: November 21 — Virginia Tech at Miami (FL) -> Virginia Tech wins: NODE 604; Miami (FL) wins: OUTCOME 2
+NODE 1274: November 21 — Virginia Tech at Miami (FL) -> Virginia Tech wins: NODE 1189; Miami (FL) wins: NODE 1188
+NODE 1275: November 21 — Virginia Tech at Miami (FL) -> Virginia Tech wins: NODE 1190; Miami (FL) wins: NODE 1186
+NODE 1276: November 21 — Virginia Tech at Miami (FL) -> Virginia Tech wins: NODE 1191; Miami (FL) wins: NODE 963
+NODE 1277: November 21 — Virginia Tech at Miami (FL) -> Virginia Tech wins: NODE 1192; Miami (FL) wins: NODE 604
+NODE 1278: November 21 — Virginia Tech at Miami (FL) -> Virginia Tech wins: NODE 1194; Miami (FL) wins: NODE 1193
+NODE 1279: November 21 — Virginia Tech at Miami (FL) -> Virginia Tech wins: NODE 1196; Miami (FL) wins: NODE 1195
+NODE 1280: November 21 — Virginia Tech at Miami (FL) -> Virginia Tech wins: NODE 1198; Miami (FL) wins: NODE 1197
+NODE 1281: November 21 — Virginia Tech at Miami (FL) -> Virginia Tech wins: NODE 1200; Miami (FL) wins: NODE 1199
+NODE 1282: November 21 — Virginia Tech at Miami (FL) -> Virginia Tech wins: NODE 1202; Miami (FL) wins: NODE 1201
+NODE 1283: November 21 — Virginia Tech at Miami (FL) -> Virginia Tech wins: NODE 1204; Miami (FL) wins: NODE 1203
+NODE 1284: November 21 — Virginia Tech at Miami (FL) -> Virginia Tech wins: NODE 1206; Miami (FL) wins: NODE 1205
+NODE 1285: November 21 — Virginia Tech at Miami (FL) -> Virginia Tech wins: NODE 1208; Miami (FL) wins: NODE 1207
+NODE 1286: November 21 — Virginia Tech at Miami (FL) -> Virginia Tech wins: NODE 1210; Miami (FL) wins: NODE 1209
+NODE 1287: November 21 — Virginia Tech at Miami (FL) -> Virginia Tech wins: NODE 1211; Miami (FL) wins: NODE 1209
+NODE 1288: November 21 — Virginia Tech at Miami (FL) -> Virginia Tech wins: NODE 1212; Miami (FL) wins: NODE 604
+NODE 1289: November 21 — Virginia Tech at Miami (FL) -> Virginia Tech wins: NODE 1214; Miami (FL) wins: NODE 1213
+NODE 1290: November 21 — Virginia Tech at Miami (FL) -> Virginia Tech wins: NODE 1216; Miami (FL) wins: NODE 1215
+NODE 1291: November 21 — Virginia Tech at Miami (FL) -> Virginia Tech wins: NODE 1218; Miami (FL) wins: NODE 1217
+NODE 1292: November 21 — Virginia Tech at Miami (FL) -> Virginia Tech wins: NODE 1220; Miami (FL) wins: NODE 1219
+NODE 1293: November 21 — Virginia Tech at Miami (FL) -> Virginia Tech wins: NODE 1049; Miami (FL) wins: NODE 1048
+NODE 1294: November 21 — Virginia Tech at Miami (FL) -> Virginia Tech wins: NODE 747; Miami (FL) wins: NODE 602
+NODE 1295: November 21 — Virginia Tech at Miami (FL) -> Virginia Tech wins: NODE 1051; Miami (FL) wins: NODE 1050
+NODE 1296: November 21 — Virginia Tech at Miami (FL) -> Virginia Tech wins: NODE 622; Miami (FL) wins: NODE 602
+NODE 1297: November 21 — Virginia Tech at Miami (FL) -> Virginia Tech wins: NODE 1221; Miami (FL) wins: NODE 1049
+NODE 1298: November 21 — Virginia Tech at Miami (FL) -> Virginia Tech wins: NODE 1222; Miami (FL) wins: NODE 747
+NODE 1299: November 21 — Virginia Tech at Miami (FL) -> Virginia Tech wins: NODE 1223; Miami (FL) wins: NODE 1051
+NODE 1300: November 21 — Virginia Tech at Miami (FL) -> Virginia Tech wins: NODE 1224; Miami (FL) wins: NODE 622
+NODE 1301: November 21 — Virginia Tech at Miami (FL) -> Virginia Tech wins: NODE 1226; Miami (FL) wins: NODE 1225
+NODE 1302: November 21 — Virginia Tech at Miami (FL) -> Virginia Tech wins: NODE 1228; Miami (FL) wins: NODE 1227
+NODE 1303: November 21 — Virginia Tech at Miami (FL) -> Virginia Tech wins: NODE 1230; Miami (FL) wins: NODE 1229
+NODE 1304: November 21 — Virginia Tech at Miami (FL) -> Virginia Tech wins: NODE 1232; Miami (FL) wins: NODE 1231
+NODE 1305: November 21 — Virginia Tech at Miami (FL) -> Virginia Tech wins: NODE 1234; Miami (FL) wins: NODE 1233
+NODE 1306: November 21 — Virginia Tech at Miami (FL) -> Virginia Tech wins: NODE 1236; Miami (FL) wins: NODE 1235
+NODE 1307: November 21 — Virginia Tech at Miami (FL) -> Virginia Tech wins: NODE 1237; Miami (FL) wins: NODE 1230
+NODE 1308: November 21 — Virginia Tech at Miami (FL) -> Virginia Tech wins: NODE 1238; Miami (FL) wins: NODE 1232
+NODE 1309: November 21 — Virginia Tech at Miami (FL) -> Virginia Tech wins: NODE 1239; Miami (FL) wins: NODE 747
+NODE 1310: November 21 — Virginia Tech at Miami (FL) -> Virginia Tech wins: NODE 1240; Miami (FL) wins: NODE 622
+NODE 1311: November 21 — Virginia Tech at Miami (FL) -> Virginia Tech wins: NODE 1242; Miami (FL) wins: NODE 1241
+NODE 1312: November 21 — Virginia Tech at Miami (FL) -> Virginia Tech wins: NODE 1244; Miami (FL) wins: NODE 1243
+NODE 1313: November 21 — Virginia Tech at Miami (FL) -> Virginia Tech wins: NODE 1245; Miami (FL) wins: NODE 1232
+NODE 1314: November 21 — Virginia Tech at Miami (FL) -> Virginia Tech wins: NODE 1188; Miami (FL) wins: NODE 1184
+NODE 1315: November 21 — Virginia Tech at Miami (FL) -> Virginia Tech wins: NODE 1246; Miami (FL) wins: NODE 1188
+NODE 1316: November 21 — Virginia Tech at Miami (FL) -> Virginia Tech wins: NODE 1247; Miami (FL) wins: NODE 1186
+NODE 1317: November 21 — Virginia Tech at Miami (FL) -> Virginia Tech wins: NODE 1248; Miami (FL) wins: NODE 963
+NODE 1318: November 21 — Virginia Tech at Miami (FL) -> Virginia Tech wins: NODE 1249; Miami (FL) wins: NODE 604
+NODE 1319: November 21 — Virginia Tech at Miami (FL) -> Virginia Tech wins: NODE 1201; Miami (FL) wins: NODE 1193
+NODE 1320: November 21 — Virginia Tech at Miami (FL) -> Virginia Tech wins: NODE 1203; Miami (FL) wins: NODE 1195
+NODE 1321: November 21 — Virginia Tech at Miami (FL) -> Virginia Tech wins: NODE 1205; Miami (FL) wins: NODE 1197
+NODE 1322: November 21 — Virginia Tech at Miami (FL) -> Virginia Tech wins: NODE 1207; Miami (FL) wins: NODE 1199
+NODE 1323: November 21 — Virginia Tech at Miami (FL) -> Virginia Tech wins: NODE 1250; Miami (FL) wins: NODE 1201
+NODE 1324: November 21 — Virginia Tech at Miami (FL) -> Virginia Tech wins: NODE 1251; Miami (FL) wins: NODE 1203
+NODE 1325: November 21 — Virginia Tech at Miami (FL) -> Virginia Tech wins: NODE 1252; Miami (FL) wins: NODE 1205
+NODE 1326: November 21 — Virginia Tech at Miami (FL) -> Virginia Tech wins: NODE 1253; Miami (FL) wins: NODE 1207
+NODE 1327: November 21 — Virginia Tech at Miami (FL) -> Virginia Tech wins: NODE 1254; Miami (FL) wins: NODE 1209
+NODE 1328: November 21 — Virginia Tech at Miami (FL) -> Virginia Tech wins: NODE 1255; Miami (FL) wins: NODE 604
+NODE 1329: November 21 — Virginia Tech at Miami (FL) -> Virginia Tech wins: NODE 1217; Miami (FL) wins: NODE 1213
+NODE 1330: November 21 — Virginia Tech at Miami (FL) -> Virginia Tech wins: NODE 1219; Miami (FL) wins: NODE 1215
+NODE 1331: November 21 — Virginia Tech at Miami (FL) -> Virginia Tech wins: NODE 1256; Miami (FL) wins: NODE 1217
+NODE 1332: November 21 — Virginia Tech at Miami (FL) -> Virginia Tech wins: NODE 1257; Miami (FL) wins: NODE 1219
+NODE 1333: November 21 — Virginia Tech at Miami (FL) -> Virginia Tech wins: NODE 1258; Miami (FL) wins: NODE 1049
+NODE 1334: November 21 — Virginia Tech at Miami (FL) -> Virginia Tech wins: NODE 1259; Miami (FL) wins: NODE 747
+NODE 1335: November 21 — Virginia Tech at Miami (FL) -> Virginia Tech wins: NODE 1260; Miami (FL) wins: NODE 1051
+NODE 1336: November 21 — Virginia Tech at Miami (FL) -> Virginia Tech wins: NODE 1261; Miami (FL) wins: NODE 622
+NODE 1337: November 21 — Virginia Tech at Miami (FL) -> Virginia Tech wins: NODE 1233; Miami (FL) wins: NODE 1225
+NODE 1338: November 21 — Virginia Tech at Miami (FL) -> Virginia Tech wins: NODE 1235; Miami (FL) wins: NODE 1227
+NODE 1339: November 21 — Virginia Tech at Miami (FL) -> Virginia Tech wins: NODE 1262; Miami (FL) wins: NODE 1233
+NODE 1340: November 21 — Virginia Tech at Miami (FL) -> Virginia Tech wins: NODE 1263; Miami (FL) wins: NODE 1235
+NODE 1341: November 21 — Virginia Tech at Miami (FL) -> Virginia Tech wins: NODE 1264; Miami (FL) wins: NODE 1230
+NODE 1342: November 21 — Virginia Tech at Miami (FL) -> Virginia Tech wins: NODE 1265; Miami (FL) wins: NODE 1232
+NODE 1343: November 21 — Virginia Tech at Miami (FL) -> Virginia Tech wins: NODE 1266; Miami (FL) wins: NODE 747
+NODE 1344: November 21 — Virginia Tech at Miami (FL) -> Virginia Tech wins: NODE 1267; Miami (FL) wins: NODE 622
+NODE 1345: November 21 — Virginia Tech at Miami (FL) -> Virginia Tech wins: NODE 1243; Miami (FL) wins: NODE 1241
+NODE 1346: November 21 — Virginia Tech at Miami (FL) -> Virginia Tech wins: NODE 1268; Miami (FL) wins: NODE 1243
+NODE 1347: November 21 — Virginia Tech at Miami (FL) -> Virginia Tech wins: NODE 1269; Miami (FL) wins: NODE 1232
+NODE 1348: November 21 — Pittsburgh at Louisville -> Pittsburgh wins: NODE 1271; Louisville wins: NODE 1270
+NODE 1349: November 21 — Pittsburgh at Louisville -> Pittsburgh wins: NODE 1273; Louisville wins: NODE 1272
+NODE 1350: November 21 — Pittsburgh at Louisville -> Pittsburgh wins: NODE 1275; Louisville wins: NODE 1274
+NODE 1351: November 21 — Pittsburgh at Louisville -> Pittsburgh wins: NODE 1277; Louisville wins: NODE 1276
+NODE 1352: November 21 — Pittsburgh at Louisville -> Pittsburgh wins: NODE 1279; Louisville wins: NODE 1278
+NODE 1353: November 21 — Pittsburgh at Louisville -> Pittsburgh wins: NODE 1281; Louisville wins: NODE 1280
+NODE 1354: November 21 — Pittsburgh at Louisville -> Pittsburgh wins: NODE 1283; Louisville wins: NODE 1282
+NODE 1355: November 21 — Pittsburgh at Louisville -> Pittsburgh wins: NODE 1285; Louisville wins: NODE 1284
+NODE 1356: November 21 — Pittsburgh at Louisville -> Pittsburgh wins: NODE 1286; Louisville wins: NODE 1270
+NODE 1357: November 21 — Pittsburgh at Louisville -> Pittsburgh wins: NODE 1287; Louisville wins: NODE 1274
+NODE 1358: November 21 — Pittsburgh at Louisville -> Pittsburgh wins: NODE 1288; Louisville wins: NODE 1276
+NODE 1359: November 21 — Pittsburgh at Louisville -> Pittsburgh wins: NODE 1289; Louisville wins: NODE 1278
+NODE 1360: November 21 — Pittsburgh at Louisville -> Pittsburgh wins: NODE 1290; Louisville wins: NODE 1280
+NODE 1361: November 21 — Pittsburgh at Louisville -> Pittsburgh wins: NODE 1291; Louisville wins: NODE 1282
+NODE 1362: November 21 — Pittsburgh at Louisville -> Pittsburgh wins: NODE 1292; Louisville wins: NODE 1284
+NODE 1363: November 21 — Pittsburgh at Louisville -> Pittsburgh wins: NODE 1294; Louisville wins: NODE 1293
+NODE 1364: November 21 — Pittsburgh at Louisville -> Pittsburgh wins: NODE 1296; Louisville wins: NODE 1295
+NODE 1365: November 21 — Pittsburgh at Louisville -> Pittsburgh wins: NODE 1298; Louisville wins: NODE 1297
+NODE 1366: November 21 — Pittsburgh at Louisville -> Pittsburgh wins: NODE 1300; Louisville wins: NODE 1299
+NODE 1367: November 21 — Pittsburgh at Louisville -> Pittsburgh wins: NODE 1302; Louisville wins: NODE 1301
+NODE 1368: November 21 — Pittsburgh at Louisville -> Pittsburgh wins: NODE 1304; Louisville wins: NODE 1303
+NODE 1369: November 21 — Pittsburgh at Louisville -> Pittsburgh wins: NODE 1306; Louisville wins: NODE 1305
+NODE 1370: November 21 — Pittsburgh at Louisville -> Pittsburgh wins: NODE 1308; Louisville wins: NODE 1307
+NODE 1371: November 21 — Pittsburgh at Louisville -> Pittsburgh wins: NODE 1309; Louisville wins: NODE 1297
+NODE 1372: November 21 — Pittsburgh at Louisville -> Pittsburgh wins: NODE 1310; Louisville wins: NODE 1299
+NODE 1373: November 21 — Pittsburgh at Louisville -> Pittsburgh wins: NODE 1311; Louisville wins: NODE 1301
+NODE 1374: November 21 — Pittsburgh at Louisville -> Pittsburgh wins: NODE 1312; Louisville wins: NODE 1305
+NODE 1375: November 21 — Pittsburgh at Louisville -> Pittsburgh wins: NODE 1313; Louisville wins: NODE 1307
+NODE 1376: November 21 — Pittsburgh at Louisville -> Pittsburgh wins: NODE 1186; Louisville wins: NODE 1314
+NODE 1377: November 21 — Pittsburgh at Louisville -> Pittsburgh wins: NODE 1316; Louisville wins: NODE 1315
+NODE 1378: November 21 — Pittsburgh at Louisville -> Pittsburgh wins: NODE 1318; Louisville wins: NODE 1317
+NODE 1379: November 21 — Pittsburgh at Louisville -> Pittsburgh wins: NODE 1320; Louisville wins: NODE 1319
+NODE 1380: November 21 — Pittsburgh at Louisville -> Pittsburgh wins: NODE 1322; Louisville wins: NODE 1321
+NODE 1381: November 21 — Pittsburgh at Louisville -> Pittsburgh wins: NODE 1324; Louisville wins: NODE 1323
+NODE 1382: November 21 — Pittsburgh at Louisville -> Pittsburgh wins: NODE 1326; Louisville wins: NODE 1325
+NODE 1383: November 21 — Pittsburgh at Louisville -> Pittsburgh wins: NODE 1209; Louisville wins: NODE 1314
+NODE 1384: November 21 — Pittsburgh at Louisville -> Pittsburgh wins: NODE 1327; Louisville wins: NODE 1315
+NODE 1385: November 21 — Pittsburgh at Louisville -> Pittsburgh wins: NODE 1328; Louisville wins: NODE 1317
+NODE 1386: November 21 — Pittsburgh at Louisville -> Pittsburgh wins: NODE 1329; Louisville wins: NODE 1319
+NODE 1387: November 21 — Pittsburgh at Louisville -> Pittsburgh wins: NODE 1330; Louisville wins: NODE 1321
+NODE 1388: November 21 — Pittsburgh at Louisville -> Pittsburgh wins: NODE 1331; Louisville wins: NODE 1323
+NODE 1389: November 21 — Pittsburgh at Louisville -> Pittsburgh wins: NODE 1332; Louisville wins: NODE 1325
+NODE 1390: November 21 — Pittsburgh at Louisville -> Pittsburgh wins: NODE 1334; Louisville wins: NODE 1333
+NODE 1391: November 21 — Pittsburgh at Louisville -> Pittsburgh wins: NODE 1336; Louisville wins: NODE 1335
+NODE 1392: November 21 — Pittsburgh at Louisville -> Pittsburgh wins: NODE 1338; Louisville wins: NODE 1337
+NODE 1393: November 21 — Pittsburgh at Louisville -> Pittsburgh wins: NODE 1340; Louisville wins: NODE 1339
+NODE 1394: November 21 — Pittsburgh at Louisville -> Pittsburgh wins: NODE 1342; Louisville wins: NODE 1341
+NODE 1395: November 21 — Pittsburgh at Louisville -> Pittsburgh wins: NODE 1343; Louisville wins: NODE 1333
+NODE 1396: November 21 — Pittsburgh at Louisville -> Pittsburgh wins: NODE 1344; Louisville wins: NODE 1335
+NODE 1397: November 21 — Pittsburgh at Louisville -> Pittsburgh wins: NODE 1345; Louisville wins: NODE 1337
+NODE 1398: November 21 — Pittsburgh at Louisville -> Pittsburgh wins: NODE 1346; Louisville wins: NODE 1339
+NODE 1399: November 21 — Pittsburgh at Louisville -> Pittsburgh wins: NODE 1347; Louisville wins: NODE 1341
+NODE 1400: November 21 — Wake Forest at Georgia Tech -> Wake Forest wins: NODE 1349; Georgia Tech wins: NODE 1348
+NODE 1401: November 21 — Wake Forest at Georgia Tech -> Wake Forest wins: NODE 1351; Georgia Tech wins: NODE 1350
+NODE 1402: November 21 — Wake Forest at Georgia Tech -> Wake Forest wins: NODE 1353; Georgia Tech wins: NODE 1352
+NODE 1403: November 21 — Wake Forest at Georgia Tech -> Wake Forest wins: NODE 1355; Georgia Tech wins: NODE 1354
+NODE 1404: November 21 — Wake Forest at Georgia Tech -> Wake Forest wins: NODE 1349; Georgia Tech wins: NODE 1356
+NODE 1405: November 21 — Wake Forest at Georgia Tech -> Wake Forest wins: NODE 1358; Georgia Tech wins: NODE 1357
+NODE 1406: November 21 — Wake Forest at Georgia Tech -> Wake Forest wins: NODE 1360; Georgia Tech wins: NODE 1359
+NODE 1407: November 21 — Wake Forest at Georgia Tech -> Wake Forest wins: NODE 1362; Georgia Tech wins: NODE 1361
+NODE 1408: November 21 — Wake Forest at Georgia Tech -> Wake Forest wins: NODE 1364; Georgia Tech wins: NODE 1363
+NODE 1409: November 21 — Wake Forest at Georgia Tech -> Wake Forest wins: NODE 1366; Georgia Tech wins: NODE 1365
+NODE 1410: November 21 — Wake Forest at Georgia Tech -> Wake Forest wins: NODE 1368; Georgia Tech wins: NODE 1367
+NODE 1411: November 21 — Wake Forest at Georgia Tech -> Wake Forest wins: NODE 1370; Georgia Tech wins: NODE 1369
+NODE 1412: November 21 — Wake Forest at Georgia Tech -> Wake Forest wins: NODE 1372; Georgia Tech wins: NODE 1371
+NODE 1413: November 21 — Wake Forest at Georgia Tech -> Wake Forest wins: NODE 1368; Georgia Tech wins: NODE 1373
+NODE 1414: November 21 — Wake Forest at Georgia Tech -> Wake Forest wins: NODE 1375; Georgia Tech wins: NODE 1374
+NODE 1415: November 21 — Wake Forest at Georgia Tech -> Wake Forest wins: NODE 1349; Georgia Tech wins: NODE 1376
+NODE 1416: November 21 — Wake Forest at Georgia Tech -> Wake Forest wins: NODE 1378; Georgia Tech wins: NODE 1377
+NODE 1417: November 21 — Wake Forest at Georgia Tech -> Wake Forest wins: NODE 1380; Georgia Tech wins: NODE 1379
+NODE 1418: November 21 — Wake Forest at Georgia Tech -> Wake Forest wins: NODE 1382; Georgia Tech wins: NODE 1381
+NODE 1419: November 21 — Wake Forest at Georgia Tech -> Wake Forest wins: NODE 1349; Georgia Tech wins: NODE 1383
+NODE 1420: November 21 — Wake Forest at Georgia Tech -> Wake Forest wins: NODE 1385; Georgia Tech wins: NODE 1384
+NODE 1421: November 21 — Wake Forest at Georgia Tech -> Wake Forest wins: NODE 1387; Georgia Tech wins: NODE 1386
+NODE 1422: November 21 — Wake Forest at Georgia Tech -> Wake Forest wins: NODE 1389; Georgia Tech wins: NODE 1388
+NODE 1423: November 21 — Wake Forest at Georgia Tech -> Wake Forest wins: NODE 1391; Georgia Tech wins: NODE 1390
+NODE 1424: November 21 — Wake Forest at Georgia Tech -> Wake Forest wins: NODE 1368; Georgia Tech wins: NODE 1392
+NODE 1425: November 21 — Wake Forest at Georgia Tech -> Wake Forest wins: NODE 1394; Georgia Tech wins: NODE 1393
+NODE 1426: November 21 — Wake Forest at Georgia Tech -> Wake Forest wins: NODE 1396; Georgia Tech wins: NODE 1395
+NODE 1427: November 21 — Wake Forest at Georgia Tech -> Wake Forest wins: NODE 1368; Georgia Tech wins: NODE 1397
+NODE 1428: November 21 — Wake Forest at Georgia Tech -> Wake Forest wins: NODE 1399; Georgia Tech wins: NODE 1398
+NODE 1429: November 28 — Boston College at Miami (FL) -> Boston College wins: NODE 1401; Miami (FL) wins: NODE 1400
+NODE 1430: November 28 — Boston College at Miami (FL) -> Boston College wins: NODE 1403; Miami (FL) wins: NODE 1402
+NODE 1431: November 28 — Boston College at Miami (FL) -> Boston College wins: NODE 1405; Miami (FL) wins: NODE 1404
+NODE 1432: November 28 — Boston College at Miami (FL) -> Boston College wins: NODE 1407; Miami (FL) wins: NODE 1406
+NODE 1433: November 28 — Boston College at Miami (FL) -> Boston College wins: NODE 1409; Miami (FL) wins: NODE 1408
+NODE 1434: November 28 — Boston College at Miami (FL) -> Boston College wins: NODE 1411; Miami (FL) wins: NODE 1410
+NODE 1435: November 28 — Boston College at Miami (FL) -> Boston College wins: NODE 1412; Miami (FL) wins: NODE 1408
+NODE 1436: November 28 — Boston College at Miami (FL) -> Boston College wins: NODE 1414; Miami (FL) wins: NODE 1413
+NODE 1437: November 28 — Boston College at Miami (FL) -> Boston College wins: NODE 1416; Miami (FL) wins: NODE 1415
+NODE 1438: November 28 — Boston College at Miami (FL) -> Boston College wins: NODE 1418; Miami (FL) wins: NODE 1417
+NODE 1439: November 28 — Boston College at Miami (FL) -> Boston College wins: NODE 1420; Miami (FL) wins: NODE 1419
+NODE 1440: November 28 — Boston College at Miami (FL) -> Boston College wins: NODE 1422; Miami (FL) wins: NODE 1421
+NODE 1441: November 28 — Boston College at Miami (FL) -> Boston College wins: NODE 1423; Miami (FL) wins: NODE 1408
+NODE 1442: November 28 — Boston College at Miami (FL) -> Boston College wins: NODE 1425; Miami (FL) wins: NODE 1424
+NODE 1443: November 28 — Boston College at Miami (FL) -> Boston College wins: NODE 1426; Miami (FL) wins: NODE 1408
+NODE 1444: November 28 — Boston College at Miami (FL) -> Boston College wins: NODE 1428; Miami (FL) wins: NODE 1427
+NODE 1445: November 28 — Duke at Wake Forest -> Duke wins: NODE 1430; Wake Forest wins: NODE 1429
+NODE 1446: November 28 — Duke at Wake Forest -> Duke wins: NODE 1432; Wake Forest wins: NODE 1431
+NODE 1447: November 28 — Duke at Wake Forest -> Duke wins: NODE 1434; Wake Forest wins: NODE 1433
+NODE 1448: November 28 — Duke at Wake Forest -> Duke wins: NODE 1436; Wake Forest wins: NODE 1435
+NODE 1449: November 28 — Duke at Wake Forest -> Duke wins: NODE 1438; Wake Forest wins: NODE 1437
+NODE 1450: November 28 — Duke at Wake Forest -> Duke wins: NODE 1440; Wake Forest wins: NODE 1439
+NODE 1451: November 28 — Duke at Wake Forest -> Duke wins: NODE 1442; Wake Forest wins: NODE 1441
+NODE 1452: November 28 — Duke at Wake Forest -> Duke wins: NODE 1444; Wake Forest wins: NODE 1443
+NODE 1453: November 28 — Pittsburgh at California -> Pittsburgh wins: NODE 1446; California wins: NODE 1445
+NODE 1454: November 28 — Pittsburgh at California -> Pittsburgh wins: NODE 1448; California wins: NODE 1447
+NODE 1455: November 28 — Pittsburgh at California -> Pittsburgh wins: NODE 1450; California wins: NODE 1449
+NODE 1456: November 28 — Pittsburgh at California -> Pittsburgh wins: NODE 1452; California wins: NODE 1451
+NODE 1457: November 28 — SMU at Stanford -> SMU wins: NODE 1454; Stanford wins: NODE 1453
+NODE 1458: November 28 — SMU at Stanford -> SMU wins: NODE 1456; Stanford wins: NODE 1455
+NODE 1459: November 28 — Virginia at Virginia Tech -> Virginia wins: NODE 1458; Virginia Tech wins: NODE 1457
